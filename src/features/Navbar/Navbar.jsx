@@ -26,42 +26,42 @@ function Navbar() {
                   </a>
                   <a
                     href="/about"
-                    class="rounded-md px-3 py-2 text-sm font-medium text-cello 
+                    className="rounded-md px-3 py-2 text-sm font-medium text-cello 
                     hover:bg-cello hover:text-white"
                   >
                     About
                   </a>
                   <a
                     href="/events"
-                    class="rounded-md px-3 py-2 text-sm font-medium text-cello 
+                    className="rounded-md px-3 py-2 text-sm font-medium text-cello 
                     hover:bg-cello hover:text-white"
                   >
                     Events
                   </a>
                   <a
                     href="/pro-bono"
-                    class="rounded-md px-3 py-2 text-sm font-medium text-cello 
+                    className="rounded-md px-3 py-2 text-sm font-medium text-cello 
                     hover:bg-cello hover:text-white"
                   >
                     Pro Bono
                   </a>
                   <a
                     href="/sponsors"
-                    class="rounded-md px-3 py-2 text-sm font-medium text-cello 
+                    className="rounded-md px-3 py-2 text-sm font-medium text-cello 
                     hover:bg-cello hover:text-white"
                   >
                     Sponsors
                   </a>
                   <a
                     href="/resources"
-                    class="rounded-md px-3 py-2 text-sm font-medium text-cello 
+                    className="rounded-md px-3 py-2 text-sm font-medium text-cello 
                     hover:bg-cello hover:text-white"
                   >
                     Resources
                   </a>
                   <a
                     href="/calendar"
-                    class="rounded-md px-3 py-2 text-sm font-medium text-cello 
+                    className="rounded-md px-3 py-2 text-sm font-medium text-cello 
                     hover:bg-cello hover:text-white"
                   >
                     Calendar
@@ -69,13 +69,13 @@ function Navbar() {
                 </div>
               </div>
             </div>
-            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <div class="relative ml-3">
-                <div class="hidden sm:ml-6 sm:block">
-                  <div class="flex space-x-4">
+            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <div className="relative ml-3">
+                <div className="hidden sm:ml-6 sm:block">
+                  <div className="flex space-x-4">
                     <a
                       href="/contact-us"
-                      class="rounded-md bg-cello px-3 py-2 text-sm font-medium text-white"
+                      className="rounded-md bg-cello px-3 py-2 text-sm font-medium text-white"
                       aria-current="page"
                     >
                       Contact Us
@@ -86,22 +86,22 @@ function Navbar() {
                 {/* <div>
                       <button
                         type="button"
-                        class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                        className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                         id="user-menu-button"
                         aria-expanded="false"
                         aria-haspopup="true"
                       >
-                        <span class="absolute -inset-1.5"></span>
-                        <span class="sr-only">Open user menu</span>
+                        <span className="absolute -inset-1.5"></span>
+                        <span className="sr-only">Open user menu</span>
                         <img
-                          class="h-8 w-8 rounded-full"
+                          className="h-8 w-8 rounded-full"
                           src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                           alt=""
                         ></img>
                       </button>
                     </div>
                     <div
-                      class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                      className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                       role="menu"
                       aria-orientation="vertical"
                       aria-labelledby="user-menu-button"
@@ -109,7 +109,7 @@ function Navbar() {
                     >
                       <a
                         href="#"
-                        class="block px-4 py-2 text-sm text-gray-700"
+                        className="block px-4 py-2 text-sm text-gray-700"
                         role="menuitem"
                         tabindex="-1"
                         id="user-menu-item-0"
@@ -118,7 +118,7 @@ function Navbar() {
                       </a>
                       <a
                         href="#"
-                        class="block px-4 py-2 text-sm text-gray-700"
+                        className="block px-4 py-2 text-sm text-gray-700"
                         role="menuitem"
                         tabindex="-1"
                         id="user-menu-item-1"
@@ -127,7 +127,7 @@ function Navbar() {
                       </a>
                       <a
                         href="#"
-                        class="block px-4 py-2 text-sm text-gray-700"
+                        className="block px-4 py-2 text-sm text-gray-700"
                         role="menuitem"
                         tabindex="-1"
                         id="user-menu-item-2"
