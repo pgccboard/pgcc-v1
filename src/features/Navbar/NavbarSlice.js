@@ -1,7 +1,7 @@
 import { createAppSlice } from "../../app/createAppSlice";
 
 const initialState = {
-  activeTab: "home",
+  activeTab: "",
 };
 
 export const navbarSlice = createAppSlice({
