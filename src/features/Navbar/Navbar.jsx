@@ -11,7 +11,7 @@ function Navbar() {
   const tabList = [
     {
       tabName: "Home",
-      tabPath: "home",
+      tabPath: "",
     },
     {
       tabName: "About",
@@ -88,13 +88,15 @@ function Navbar() {
               <div className="relative ml-3">
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    <a
-                      href="/contact-us"
-                      className="rounded-md bg-cello px-3 py-2 text-sm font-medium text-white"
-                      aria-current="page"
+                    <Link
+                      to="/contact-us"
+                      className={selectedTabClassNames}
+                      onClick={() => {
+                        dispatch(setActiveTab("contact-us"));
+                      }}
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* Profile section -- can be added late */}
