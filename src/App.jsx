@@ -19,14 +19,14 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/events" element={<Events />} />
-          <Route exact path="/pro-bono" element={<ProBono />} />
-          <Route exact path="/sponsors" element={<Sponsors />} />
-          <Route exact path="/resources" element={<Resources />} />
-          <Route exact path="/calendar" element={<Calendar />} />
-          <Route exact path="/contact-us" element={<ContactUs />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/pro-bono" element={<ProBono />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/calendar" element={<Calendar />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
     </>
