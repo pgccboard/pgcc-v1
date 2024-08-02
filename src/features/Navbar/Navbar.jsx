@@ -11,7 +11,7 @@ function Navbar() {
   const tabList = [
     {
       tabName: "Home",
-      tabPath: "home",
+      tabPath: "",
     },
     {
       tabName: "About",
