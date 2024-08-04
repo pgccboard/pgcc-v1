@@ -24,9 +24,11 @@ function Home() {
                 Learn More
               </button>
             </Link>
-            <button className="border border-slate-blue text-block py-2 px-4 rounded-lg shadow hover:bg-cello hover:text-white">
-              Get Involved
-            </button>
+            <Link to="/contact-us">
+              <button className="border border-slate-blue text-block py-2 px-4 rounded-lg shadow hover:bg-cello hover:text-white">
+                Get Involved
+              </button>
+            </Link>
           </div>
         </div>
 
