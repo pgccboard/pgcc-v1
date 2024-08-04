@@ -1,43 +1,13 @@
-import { useDispatch, useSelector } from "react-redux";
-import logo from "../../assets/logo.png";
-import { selectActiveTab, setActiveTab } from "./NavbarSlice";
-import { useEffect } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-function Navbar() {
-  const dispatch = useDispatch();
-  const activeTab = useSelector(selectActiveTab);
+import { selectActiveTab } from "./NavbarSlice";
 
-  const tabList = [
-    {
-      tabName: "Home",
-      tabPath: "",
-    },
-    {
-      tabName: "About",
-      tabPath: "about",
-    },
-    {
-      tabName: "Events",
-      tabPath: "events",
-    },
-    {
-      tabName: "Pro Bono",
-      tabPath: "pro-bono",
-    },
-    {
-      tabName: "Sponsors",
-      tabPath: "sponsors",
-    },
-    {
-      tabName: "Resources",
-      tabPath: "resources",
-    },
-    {
-      tabName: "Calendar",
-      tabPath: "calendar",
-    },
-  ];
+import LOGO from "../../assets/logo.png";
+import { CONTACTUS, tabList } from "../../pgccConstants";
+
+function Navbar() {
+  const activeTab = useSelector(selectActiveTab);
 
   const selectedTabClassNames =
     "rounded-md px-3 py-2 text-sm font-medium bg-cello text-white";
@@ -51,7 +21,7 @@ function Navbar() {
           <div className="relative flex h-16 items-center justify-between">
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex flex-shrink-0 items-center">
-                <img className="w-40" src={logo} alt="PGCC LOGO"></img>
+                <img className="w-40" src={LOGO} alt="PGCC LOGO"></img>
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
@@ -65,9 +35,6 @@ function Navbar() {
                             ? selectedTabClassNames
                             : unSelectedTabClassNames
                         }
-                        onClick={() => {
-                          dispatch(setActiveTab(tabDetails.tabPath));
-                        }}
                       >
                         {tabDetails.tabName}
                       </Link>
@@ -81,11 +48,8 @@ function Navbar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     <Link
-                      to="/contact-us"
+                      to={`/${CONTACTUS}`}
                       className={selectedTabClassNames}
-                      onClick={() => {
-                        dispatch(setActiveTab("contact-us"));
-                      }}
                     >
                       Contact Us
                     </Link>
