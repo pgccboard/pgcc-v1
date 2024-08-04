@@ -44,17 +44,9 @@ function Navbar() {
   const unSelectedTabClassNames =
     "rounded-md px-3 py-2 text-sm font-medium text-cello hover:bg-cello hover:text-white";
 
-  useEffect(() => {
-    console.log(activeTab);
-  }, []);
-
   return (
-    // gray-suit": "#C5BECF",
-    // cello: "#1C2F58",
-    // tamarillo: "#9D152C",
-    // cadillac: "#B65262",
     <>
-      <nav className="bg-gray-suit">
+      <nav className="bg-gray-100">
         <div className="mx-auto max-w-full px-8 sm:px-4 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
