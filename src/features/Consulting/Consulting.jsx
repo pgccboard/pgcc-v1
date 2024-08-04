@@ -3,20 +3,20 @@ import { useDispatch } from "react-redux";
 
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
-import { EVENTS } from "../../pgccConstants";
+import { CONSULTING } from "../../pgccConstants";
 
-function Events() {
+function Consulting() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(setActiveTab(EVENTS));
+    dispatch(setActiveTab(CONSULTING));
   }, []);
 
   return (
     <>
-      <h1>Events Page</h1>
+      <h1>Consulting Page</h1>
     </>
   );
 }
 
-export default Events;
+export default Consulting;

@@ -1,17 +1,26 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Navbar from "./features/Navbar/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Navbar from "./features/Navbar/Navbar";
 import Home from "./features/Home/Home";
 import About from "./features/About/About";
 import Events from "./features/Events/Events";
-import ProBono from "./features/ProBono/ProBono";
+import Consulting from "./features/Consulting/Consulting";
 import Sponsors from "./features/Sponsors/Sponsors";
 import Resources from "./features/Resources/Resources";
 import Calendar from "./features/Calendar/Calendar";
 import ContactUs from "./features/ContactUs/ContactUs";
+
+import {
+  ABOUT,
+  CALENDAR,
+  CONTACTUS,
+  EVENTS,
+  CONSULTING,
+  RESOURCES,
+  SPONSORS,
+} from "./pgccConstants";
+
+import "./App.css";
 
 function App() {
   return (
@@ -21,13 +30,13 @@ function App() {
         <div className="bg-custom-large bg-top-wave bg-no-repeat">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/pro-bono" element={<ProBono />} />
-            <Route path="/sponsors" element={<Sponsors />} />
-            <Route path="/resources" element={<Resources />} />
-            <Route path="/calendar" element={<Calendar />} />
-            <Route path="/contact-us" element={<ContactUs />} />
+            <Route path={`/${ABOUT}`} element={<About />} />
+            <Route path={`/${EVENTS}`} element={<Events />} />
+            <Route path={`/${CONSULTING}`} element={<Consulting />} />
+            <Route path={`/${SPONSORS}`} element={<Sponsors />} />
+            <Route path={`/${RESOURCES}`} element={<Resources />} />
+            <Route path={`/${CALENDAR}`} element={<Calendar />} />
+            <Route path={`/${CONTACTUS}`} element={<ContactUs />} />
           </Routes>
         </div>
       </BrowserRouter>
