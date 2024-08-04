@@ -5,8 +5,10 @@ export default {
     extend: {
       colors: {
         "gray-suit": "#C5BECF",
+        "slate-blue": "#3A4B77",
         cello: "#1C2F58",
         tamarillo: "#9D152C",
+        burgundy: "#800F23",
         cadillac: "#B65262",
         "light-pink": "#FF8398",
         "very-pale-pink": "#FAF9FB",
