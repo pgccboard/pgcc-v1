@@ -13,7 +13,15 @@ export default {
         "light-lavender": "#B89CF2",
         "light-blue": "#719EFF",
       },
+      backgroundImage: {
+        "top-wave": "url('./assets/topWave.svg')",
+      },
+      backgroundSize: {
+        "custom-large": "150%",
+      },
     },
   },
   plugins: [],
 };
+
+// f6f6f6

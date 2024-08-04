@@ -18,16 +18,18 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/pro-bono" element={<ProBono />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/resources" element={<Resources />} />
-          <Route path="/calendar" element={<Calendar />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-        </Routes>
+        <div className="bg-custom-large bg-top-wave bg-no-repeat">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/pro-bono" element={<ProBono />} />
+            <Route path="/sponsors" element={<Sponsors />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/calendar" element={<Calendar />} />
+            <Route path="/contact-us" element={<ContactUs />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </>
   );
