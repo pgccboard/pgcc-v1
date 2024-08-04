@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import benFrank from "../../assets/benfrank.png";
 
 function Home() {
@@ -18,9 +19,11 @@ function Home() {
             University of Pennsylvania, 500+ members strong.
           </p>
           <div className="flex justify-center md:justify-start space-x-4">
-            <button className="bg-tamarillo text-white py-2 px-4 rounded-lg shadow hover:bg-burgundy">
-              Learn More
-            </button>
+            <Link to="/about">
+              <button className="bg-tamarillo text-white py-2 px-4 rounded-lg shadow hover:bg-burgundy">
+                Learn More
+              </button>
+            </Link>
             <button className="border border-slate-blue text-block py-2 px-4 rounded-lg shadow hover:bg-cello hover:text-white">
               Get Involved
             </button>
