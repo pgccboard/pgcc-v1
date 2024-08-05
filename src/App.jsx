@@ -27,7 +27,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="bg-custom-large bg-top-wave bg-no-repeat">
+        <div className="pt-16 bg-custom-large bg-top-wave bg-no-repeat">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path={`/${ABOUT}`} element={<About />} />
