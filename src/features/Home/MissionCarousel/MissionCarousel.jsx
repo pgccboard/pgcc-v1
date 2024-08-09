@@ -10,8 +10,6 @@ import PGCC6 from "../../../assets/mission-carousel/pgcc-6.jpg";
 import PGCC7 from "../../../assets/mission-carousel/pgcc-7.jpg";
 import PGCC8 from "../../../assets/mission-carousel/pgcc-8.jpg";
 
-const title = "Our Mission";
-
 const contentPara1 = `Penn Graduate Consulting Club (PGCC) is one of the largest student-run consulting
               clubs for non-MBA graduate students (PhDs, MDs, JDs, master's, etc.) and post-docs at
               the University of Pennsylvania. The mission of PGCC is to educate the community about
@@ -66,7 +64,7 @@ const MissionCarousel = () => {
 
   return (
     <>
-      <h2 className="text-4xl font-bold text-center">{title}</h2>
+      <h2 className="text-4xl font-bold text-center">Our Mission</h2>
       <div className="relative w-full max-w-5xl my-4 mx-auto p-4">
         <div className="relative">
           <div

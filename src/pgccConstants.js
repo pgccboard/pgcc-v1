@@ -37,3 +37,18 @@ export const tabList = [
     tabPath: CALENDAR,
   },
 ];
+
+export const PGCCNumStatsList = [
+  {
+    title: "500+",
+    subTitle: "Passionate Members",
+  },
+  {
+    title: "12",
+    subTitle: "Penn Schools Represented",
+  },
+  {
+    title: "100+",
+    subTitle: "Case Comp Participants",
+  },
+];
