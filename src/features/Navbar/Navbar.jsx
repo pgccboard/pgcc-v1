@@ -77,9 +77,8 @@ function Navbar() {
         >
           <ul>
             {tabList.map((tabDetails) => (
-              <li>
+              <li key={`${tabDetails.tabPath}`}>
                 <Link
-                  key={tabDetails.tabPath}
                   to={tabDetails.tabPath}
                   className={
                     activeTab === `${tabDetails.tabPath}`

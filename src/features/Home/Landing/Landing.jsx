@@ -11,7 +11,7 @@ function Landing() {
   //     '2xl': '1536px',
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-center lg:justify-center p-8 md:p-16">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-center p-8 md:p-12">
         <div className="text-center lg:text-left lg:mr-8 mb-8 lg:mb-0">
           <h1 className="text-5xl lg:text-4xl text-gray-800 font-bold mb-4">
             Penn Graduate

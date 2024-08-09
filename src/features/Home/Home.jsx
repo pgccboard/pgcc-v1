@@ -5,6 +5,7 @@ import { setActiveTab } from "../Navbar/NavbarSlice";
 
 import { HOME } from "../../pgccConstants";
 import Landing from "./Landing/Landing";
+import MissionCarousel from "./MissionCarousel/MissionCarousel";
 
 function Home() {
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ function Home() {
   return (
     <>
       <Landing />
+      <MissionCarousel />
     </>
   );
 }
