@@ -4,11 +4,6 @@ import BENFRANK from "../../../assets/benfrank.png";
 import { ABOUT, CONTACTUS } from "../../../pgccConstants";
 
 function Landing() {
-  // 'sm': '640px',
-  //     'md': '768px',
-  //     'lg': '1024px',
-  //     'xl': '1280px',
-  //     '2xl': '1536px',
   return (
     <>
       <div className="flex flex-col lg:flex-row items-center lg:justify-center p-8 md:p-12">

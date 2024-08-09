@@ -1,14 +1,14 @@
 // Carousel.jsx
 import React, { useEffect, useRef, useState } from "react";
 
-import PGCC1 from "../../../assets/pgcc-1.jpg";
-import PGCC2 from "../../../assets/pgcc-2.jpg";
-import PGCC3 from "../../../assets/pgcc-3.jpg";
-import PGCC4 from "../../../assets/pgcc-4.jpg";
-import PGCC5 from "../../../assets/pgcc-5.jpg";
-import PGCC6 from "../../../assets/pgcc-6.jpg";
-
-const title = "Our Mission";
+import PGCC1 from "../../../assets/mission-carousel/pgcc-1.jpg";
+import PGCC2 from "../../../assets/mission-carousel/pgcc-2.jpg";
+import PGCC3 from "../../../assets/mission-carousel/pgcc-3.jpg";
+import PGCC4 from "../../../assets/mission-carousel/pgcc-4.jpg";
+import PGCC5 from "../../../assets/mission-carousel/pgcc-5.jpg";
+import PGCC6 from "../../../assets/mission-carousel/pgcc-6.jpg";
+import PGCC7 from "../../../assets/mission-carousel/pgcc-7.jpg";
+import PGCC8 from "../../../assets/mission-carousel/pgcc-8.jpg";
 
 const contentPara1 = `Penn Graduate Consulting Club (PGCC) is one of the largest student-run consulting
               clubs for non-MBA graduate students (PhDs, MDs, JDs, master's, etc.) and post-docs at
@@ -21,7 +21,7 @@ const contentPara2 = `PGCC currently has 500+ members and a strong impact on the
               200 members will be applying for full-time jobs or internships in the next recruiting
               cycle.`;
 
-const imageList = [PGCC1, PGCC2, PGCC3, PGCC4, PGCC5, PGCC6];
+const imageList = [PGCC1, PGCC2, PGCC3, PGCC4, PGCC5, PGCC6, PGCC7, PGCC8];
 
 const MissionCarousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -64,7 +64,7 @@ const MissionCarousel = () => {
 
   return (
     <>
-      <h2 className="text-4xl font-bold text-center">{title}</h2>
+      <h2 className="text-4xl font-bold text-center">Our Mission</h2>
       <div className="relative w-full max-w-5xl my-4 mx-auto p-4">
         <div className="relative">
           <div
