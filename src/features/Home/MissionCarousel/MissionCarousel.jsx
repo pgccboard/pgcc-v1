@@ -68,7 +68,7 @@ const MissionCarousel = () => {
       <div className="relative w-full max-w-5xl my-4 mx-auto p-4">
         <div className="relative">
           <div
-            className="w-full h-96 bg-cover bg-center overflow-auto rounded-lg shadow-md"
+            className="w-full h-96 bg-cover bg-center overflow-auto rounded-lg shadow-md transition-transform duration-700 ease-in-out transform"
             style={{
               backgroundImage: `url(${imageList[currentImageIndex]})`,
               transform: `none`,
