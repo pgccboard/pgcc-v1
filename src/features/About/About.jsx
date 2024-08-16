@@ -3,7 +3,15 @@ import { useDispatch } from "react-redux";
 
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
-import { ABOUT } from "../../pgccConstants";
+import Banner from "../Banner/Banner";
+import Overview from "../Overview/Overview";
+
+import {
+  ABOUT,
+  ABOUTHEADER,
+  ABOUTOVERVIEW,
+  ABOUTSUBHEADER,
+} from "../../pgccConstants";
 
 function About() {
   const dispatch = useDispatch();
@@ -14,7 +22,8 @@ function About() {
 
   return (
     <>
-      <h1>About Page</h1>
+      <Banner title={ABOUTHEADER} subTitle={ABOUTSUBHEADER} />
+      <Overview content={ABOUTOVERVIEW} />
     </>
   );
 }

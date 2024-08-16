@@ -3,7 +3,15 @@ import { useDispatch } from "react-redux";
 
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
-import { EVENTS } from "../../pgccConstants";
+import Banner from "../Banner/Banner";
+import Overview from "../Overview/Overview";
+
+import {
+  EVENTS,
+  EVENTSHEADER,
+  EVENTSOVERVIEW,
+  EVENTSSUBHEADER,
+} from "../../pgccConstants";
 
 function Events() {
   const dispatch = useDispatch();
@@ -14,7 +22,8 @@ function Events() {
 
   return (
     <>
-      <h1>Events Page</h1>
+      <Banner title={EVENTSHEADER} subTitle={EVENTSSUBHEADER} />
+      <Overview content={EVENTSOVERVIEW} />
     </>
   );
 }

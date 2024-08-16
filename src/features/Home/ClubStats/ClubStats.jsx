@@ -7,7 +7,7 @@ const ClubStats = () => {
       <div className="mx-auto text-center flex flex-col sm:flex-row mt-8 lg:px-24">
         {PGCCNumStatsList.map((PGCCNumStats) => {
           return (
-            <div className="my-3 sm:w-1/3">
+            <div className="my-3 sm:w-1/3" key={PGCCNumStats.id}>
               <p className="text-4xl lg:text-6xl font-semibold text-cadillac">
                 {PGCCNumStats.title}
               </p>

@@ -3,7 +3,13 @@ import { useDispatch } from "react-redux";
 
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
-import { CALENDAR } from "../../pgccConstants";
+import Banner from "../Banner/Banner";
+
+import {
+  CALENDAR,
+  CALENDARHEADER,
+  CALENDARSUBHEADER,
+} from "../../pgccConstants";
 
 function Calendar() {
   const dispatch = useDispatch();
@@ -14,7 +20,7 @@ function Calendar() {
 
   return (
     <>
-      <h1>Calendar Page</h1>
+      <Banner title={CALENDARHEADER} subTitle={CALENDARSUBHEADER} />
     </>
   );
 }
