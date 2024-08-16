@@ -67,16 +67,18 @@ const MissionCarousel = () => {
           >
             <div className="bg-gradient-to-br from-cello to-transparent h-96 max-w-5xl">
               <div className="p-4 text-white max-w-2xl">
-                {missionContentParaList.map((missionContentPara) => {
-                  return (
-                    <>
-                      <p className="md:text-lg xxs:text-xs">
-                        {missionContentPara}
-                      </p>
-                      <br />
-                    </>
-                  );
-                })}
+                {missionContentParaList.map(
+                  (missionContentPara, missionContentIndex) => {
+                    return (
+                      <div key={`missionContentIndex${missionContentIndex}`}>
+                        <p className="md:text-lg xxs:text-xs">
+                          {missionContentPara}
+                        </p>
+                        <br />
+                      </div>
+                    );
+                  }
+                )}
               </div>
             </div>
           </div>
