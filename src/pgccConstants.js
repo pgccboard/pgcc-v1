@@ -89,6 +89,7 @@ export const CONSULTINGOVERVIEW = `PGCC offers pro bono consulting to interested
 export const SPONSORSHEADER = "Sponsors";
 export const SPONSORSSUBHEADER =
   "Connect with top talent while supporting our members";
+export const SPONSORSCONTENT = `PGCC offers firms the chance to network with a future talent pool consisting of over 500 graduate students and postdocs from the University of Pennsylvania. Our sponsors create opportunities for our members by funding case competitions, speaker events, and scholarships. Reach out to us to learn how you can become a sponsor.`;
 
 // Resources Page
 
@@ -100,3 +101,9 @@ export const RESOURCESSUBHEADER =
 
 export const CALENDARHEADER = "Calendar";
 export const CALENDARSUBHEADER = "Follow along with us with our events";
+
+// Contact Us Page
+
+export const CONTACTUSHEADER = "Get in touch";
+export const CONTACTUSSUBHEADER =
+  "Inquire about our club through the form and we will respond within 48 hours";
