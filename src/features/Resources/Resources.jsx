@@ -20,11 +20,7 @@ function Resources() {
 
   return (
     <>
-      <Banner
-        title={RESOURCESHEADER}
-        subTitle={RESOURCESSUBHEADER}
-        content={""}
-      />
+      <Banner title={RESOURCESHEADER} subTitle={RESOURCESSUBHEADER} />
     </>
   );
 }

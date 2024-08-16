@@ -3,7 +3,13 @@ import { useDispatch } from "react-redux";
 
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
-import { CONTACTUS } from "../../pgccConstants";
+import Banner from "../Banner/Banner";
+
+import {
+  CONTACTUS,
+  CONTACTUSHEADER,
+  CONTACTUSSUBHEADER,
+} from "../../pgccConstants";
 
 function ContactUs() {
   const dispatch = useDispatch();
@@ -14,7 +20,7 @@ function ContactUs() {
 
   return (
     <>
-      <h1>ContactUs Page</h1>
+      <Banner title={CONTACTUSHEADER} subTitle={CONTACTUSSUBHEADER} />
     </>
   );
 }

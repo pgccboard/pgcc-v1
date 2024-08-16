@@ -20,11 +20,7 @@ function Sponsors() {
 
   return (
     <>
-      <Banner
-        title={SPONSORSHEADER}
-        subTitle={SPONSORSSUBHEADER}
-        content={""}
-      />
+      <Banner title={SPONSORSHEADER} subTitle={SPONSORSSUBHEADER} />
     </>
   );
 }

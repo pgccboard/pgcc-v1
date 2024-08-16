@@ -5,12 +5,7 @@ import { setActiveTab } from "../Navbar/NavbarSlice";
 
 import Banner from "../Banner/Banner";
 
-import {
-  ABOUT,
-  ABOUTHEADER,
-  ABOUTOVERVIEW,
-  ABOUTSUBHEADER,
-} from "../../pgccConstants";
+import { ABOUT, ABOUTHEADER, ABOUTSUBHEADER } from "../../pgccConstants";
 
 function About() {
   const dispatch = useDispatch();
@@ -21,11 +16,7 @@ function About() {
 
   return (
     <>
-      <Banner
-        title={ABOUTHEADER}
-        subTitle={ABOUTSUBHEADER}
-        content={ABOUTOVERVIEW}
-      />
+      <Banner title={ABOUTHEADER} subTitle={ABOUTSUBHEADER} />
     </>
   );
 }

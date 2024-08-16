@@ -1,4 +1,4 @@
-function Banner({ title, subTitle, content }) {
+function Banner({ title, subTitle }) {
   return (
     <>
       <div className="flex flex-col items-center bg-gradient-to-bl from-cello/50 to-tamarillo/20">

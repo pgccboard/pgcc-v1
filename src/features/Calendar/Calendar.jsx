@@ -20,11 +20,7 @@ function Calendar() {
 
   return (
     <>
-      <Banner
-        title={CALENDARHEADER}
-        subTitle={CALENDARSUBHEADER}
-        content={""}
-      />
+      <Banner title={CALENDARHEADER} subTitle={CALENDARSUBHEADER} />
     </>
   );
 }

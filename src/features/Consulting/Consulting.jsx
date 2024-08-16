@@ -8,7 +8,6 @@ import Banner from "../Banner/Banner";
 import {
   CONSULTING,
   CONSULTINGHEADER,
-  CONSULTINGOVERVIEW,
   CONSULTINGSUBHEADER,
 } from "../../pgccConstants";
 
@@ -21,11 +20,7 @@ function Consulting() {
 
   return (
     <>
-      <Banner
-        title={CONSULTINGHEADER}
-        subTitle={CONSULTINGSUBHEADER}
-        content={CONSULTINGOVERVIEW}
-      />
+      <Banner title={CONSULTINGHEADER} subTitle={CONSULTINGSUBHEADER} />
     </>
   );
 }

@@ -5,12 +5,7 @@ import { setActiveTab } from "../Navbar/NavbarSlice";
 
 import Banner from "../Banner/Banner";
 
-import {
-  EVENTS,
-  EVENTSHEADER,
-  EVENTSOVERVIEW,
-  EVENTSSUBHEADER,
-} from "../../pgccConstants";
+import { EVENTS, EVENTSHEADER, EVENTSSUBHEADER } from "../../pgccConstants";
 
 function Events() {
   const dispatch = useDispatch();
@@ -21,11 +16,7 @@ function Events() {
 
   return (
     <>
-      <Banner
-        title={EVENTSHEADER}
-        subTitle={EVENTSSUBHEADER}
-        content={EVENTSOVERVIEW}
-      />
+      <Banner title={EVENTSHEADER} subTitle={EVENTSSUBHEADER} />
     </>
   );
 }
