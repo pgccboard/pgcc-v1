@@ -4,10 +4,12 @@ import { useDispatch } from "react-redux";
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
 import Banner from "../Banner/Banner";
+import Overview from "../Overview/Overview";
 
 import {
   CONSULTING,
   CONSULTINGHEADER,
+  CONSULTINGOVERVIEW,
   CONSULTINGSUBHEADER,
 } from "../../pgccConstants";
 
@@ -21,6 +23,7 @@ function Consulting() {
   return (
     <>
       <Banner title={CONSULTINGHEADER} subTitle={CONSULTINGSUBHEADER} />
+      <Overview>{CONSULTINGOVERVIEW}</Overview>
     </>
   );
 }

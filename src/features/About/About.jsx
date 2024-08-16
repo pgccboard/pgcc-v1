@@ -4,8 +4,14 @@ import { useDispatch } from "react-redux";
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
 import Banner from "../Banner/Banner";
+import Overview from "../Overview/Overview";
 
-import { ABOUT, ABOUTHEADER, ABOUTSUBHEADER } from "../../pgccConstants";
+import {
+  ABOUT,
+  ABOUTHEADER,
+  ABOUTOVERVIEW,
+  ABOUTSUBHEADER,
+} from "../../pgccConstants";
 
 function About() {
   const dispatch = useDispatch();
@@ -17,6 +23,7 @@ function About() {
   return (
     <>
       <Banner title={ABOUTHEADER} subTitle={ABOUTSUBHEADER} />
+      <Overview>{ABOUTOVERVIEW}</Overview>
     </>
   );
 }
