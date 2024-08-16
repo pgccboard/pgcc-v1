@@ -10,16 +10,7 @@ import PGCC6 from "../../../assets/mission-carousel/pgcc-6.jpg";
 import PGCC7 from "../../../assets/mission-carousel/pgcc-7.jpg";
 import PGCC8 from "../../../assets/mission-carousel/pgcc-8.jpg";
 
-const contentPara1 = `Penn Graduate Consulting Club (PGCC) is one of the largest student-run consulting
-              clubs for non-MBA graduate students (PhDs, MDs, JDs, master's, etc.) and post-docs at
-              the University of Pennsylvania. The mission of PGCC is to educate the community about
-              the consulting industry and to help advanced degree candidates prepare for a career in
-              consulting.`;
-
-const contentPara2 = `PGCC currently has 500+ members and a strong impact on the broader Penn Community.
-              More than 80% of our members show great passion for a consulting career, and more than
-              200 members will be applying for full-time jobs or internships in the next recruiting
-              cycle.`;
+import { missionContentParaList } from "../../../pgccConstants";
 
 const imageList = [PGCC1, PGCC2, PGCC3, PGCC4, PGCC5, PGCC6, PGCC7, PGCC8];
 
@@ -76,9 +67,16 @@ const MissionCarousel = () => {
           >
             <div className="bg-gradient-to-br from-cello to-transparent h-96 max-w-5xl">
               <div className="p-4 text-white max-w-2xl">
-                <p className="md:text-lg xxs:text-xs">{contentPara1}</p>
-                <br />
-                <p className="md:text-lg xxs:text-xs">{contentPara2}</p>
+                {missionContentParaList.map((missionContentPara) => {
+                  return (
+                    <>
+                      <p className="md:text-lg xxs:text-xs">
+                        {missionContentPara}
+                      </p>
+                      <br />
+                    </>
+                  );
+                })}
               </div>
             </div>
           </div>
