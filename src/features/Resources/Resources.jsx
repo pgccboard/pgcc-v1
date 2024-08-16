@@ -3,7 +3,13 @@ import { useDispatch } from "react-redux";
 
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
-import { RESOURCES } from "../../pgccConstants";
+import Banner from "../Banner/Banner";
+
+import {
+  RESOURCES,
+  RESOURCESHEADER,
+  RESOURCESSUBHEADER,
+} from "../../pgccConstants";
 
 function Resources() {
   const dispatch = useDispatch();
@@ -14,7 +20,11 @@ function Resources() {
 
   return (
     <>
-      <h1>Resources Page</h1>
+      <Banner
+        title={RESOURCESHEADER}
+        subTitle={RESOURCESSUBHEADER}
+        content={""}
+      />
     </>
   );
 }

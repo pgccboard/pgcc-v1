@@ -3,7 +3,13 @@ import { useDispatch } from "react-redux";
 
 import { setActiveTab } from "../Navbar/NavbarSlice";
 
-import { SPONSORS } from "../../pgccConstants";
+import Banner from "../Banner/Banner";
+
+import {
+  SPONSORS,
+  SPONSORSHEADER,
+  SPONSORSSUBHEADER,
+} from "../../pgccConstants";
 
 function Sponsors() {
   const dispatch = useDispatch();
@@ -14,7 +20,11 @@ function Sponsors() {
 
   return (
     <>
-      <h1>Sponsors Page</h1>
+      <Banner
+        title={SPONSORSHEADER}
+        subTitle={SPONSORSSUBHEADER}
+        content={""}
+      />
     </>
   );
 }
