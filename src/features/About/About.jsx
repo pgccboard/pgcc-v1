@@ -23,7 +23,7 @@ function About() {
   return (
     <>
       <Banner title={ABOUTHEADER} subTitle={ABOUTSUBHEADER} />
-      <Overview>{ABOUTOVERVIEW}</Overview>
+      <Overview content={ABOUTOVERVIEW} />
     </>
   );
 }

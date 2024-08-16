@@ -6,8 +6,10 @@ function Overview({ children, content }) {
           <div className="text-center lg:text-left lg:mr-8 mb-8 lg:mb-0">
             <p className="text-lg md:text-xl text-gray-900">{content}</p>
             <br />
+            {/* Buttons */}
             {children && children[0]}
           </div>
+          {/* Image */}
           {children && children[1]}
         </div>
       </div>

@@ -23,7 +23,7 @@ function Consulting() {
   return (
     <>
       <Banner title={CONSULTINGHEADER} subTitle={CONSULTINGSUBHEADER} />
-      <Overview>{CONSULTINGOVERVIEW}</Overview>
+      <Overview content={CONSULTINGOVERVIEW} />
     </>
   );
 }

@@ -23,7 +23,7 @@ function Events() {
   return (
     <>
       <Banner title={EVENTSHEADER} subTitle={EVENTSSUBHEADER} />
-      <Overview>{EVENTSOVERVIEW}</Overview>
+      <Overview content={EVENTSOVERVIEW} />
     </>
   );
 }
