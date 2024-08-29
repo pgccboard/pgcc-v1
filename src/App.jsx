@@ -21,13 +21,14 @@ import {
 } from "./pgccConstants";
 
 import "./App.css";
+import MailList from "./features/MailList/MailList";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="pt-16 bg-custom-large bg-top-wave bg-no-repeat">
+        <div className="py-16 bg-custom-large bg-top-wave bg-no-repeat">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path={`/${ABOUT}`} element={<About />} />
@@ -38,6 +39,7 @@ function App() {
             <Route path={`/${CALENDAR}`} element={<Calendar />} />
             <Route path={`/${CONTACTUS}`} element={<ContactUs />} />
           </Routes>
+          <MailList />
         </div>
       </BrowserRouter>
     </>
