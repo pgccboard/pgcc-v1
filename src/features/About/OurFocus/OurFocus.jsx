@@ -3,7 +3,7 @@ import { OurFocusList } from "../../../pgccConstants";
 function OurFocus() {
   return (
     <>
-      <h2 className="text-4xl font-bold text-center my-4 text-cello">
+      <h2 className="text-3xl font-bold text-center my-4 text-cello">
         Our Focus
       </h2>
       <div className="relative w-full max-w-5xl my-4 mx-auto p-4">
