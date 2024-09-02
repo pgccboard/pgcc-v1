@@ -12,6 +12,7 @@ import {
   ABOUTOVERVIEW,
   ABOUTSUBHEADER,
 } from "../../pgccConstants";
+import OurFocus from "./OurFocus/OurFocus";
 
 function About() {
   const dispatch = useDispatch();
@@ -24,6 +25,7 @@ function About() {
     <>
       <Banner title={ABOUTHEADER} subTitle={ABOUTSUBHEADER} />
       <Overview content={ABOUTOVERVIEW} />
+      <OurFocus />
     </>
   );
 }

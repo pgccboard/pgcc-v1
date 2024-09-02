@@ -15,14 +15,14 @@ const Footer = () => {
           </div>
           {FooterContent.map((footerItem) => {
             return (
-              <div className="flex-1 px-3">
+              <div className="flex-1 px-3" key={footerItem.id}>
                 <h2 className="text-base md:text-lg font-bold">
                   {footerItem.footerHeading}
                 </h2>
                 <ul className="mt-4 leading-loose text-sm md:text-base text-tamarillo">
                   {footerItem.footerList.map((footerListItem) => {
                     return (
-                      <li>
+                      <li key={footerListItem.id}>
                         <Link to={footerListItem.routeTo} target="_blank">
                           {footerListItem.name}
                         </Link>

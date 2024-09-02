@@ -1,6 +1,11 @@
 import USER from "./assets/icons/user.png";
 import MONEY from "./assets/icons/money.png";
 import FOLDER from "./assets/icons/folder.png";
+import NUMBERONE from "./assets/icons/numbers/1.png";
+import NUMBERTWO from "./assets/icons/numbers/2.png";
+import NUMBERTHREE from "./assets/icons/numbers/3.png";
+import NUMBERFOUR from "./assets/icons/numbers/4.png";
+import NUMBERFIVE from "./assets/icons/numbers/5.png";
 
 // Navbar
 export const HOME = "";
@@ -102,6 +107,39 @@ export const ABOUTHEADER = "About";
 export const ABOUTSUBHEADER = "Learn what we do and meet our executive board";
 export const ABOUTOVERVIEW = `Welcome to the site of the Penn Graduate Consulting Club (PGCC). The purpose of our group is to serve the members of the Penn graduate and post-doctoral community who share a common interest in learning about careers in management consulting. To this end, we host multiple events, including an annual case competition, panel discussions, seminars, workshops, and lively networking receptions. Members can participate in pro bono consulting projects for real-world clients in order to gain hands-on experience in management consulting. We also create opportunities for our members to understand the perspectives of both experienced and freshly minted consultants. It is our goal to provide our 500+ members with an in-depth exposure to the consulting industry, and with ample support in preparing for case-based interviews.`;
 
+export const OurFocusList = [
+  {
+    id: "FocusNum1",
+    numImg: NUMBERONE,
+    numImgAlt: "NUMBERONE",
+    para: `Increasing awareness of alternative career paths by introducing the Penn graduate and post-doctoral community to career opportunities in management consulting`,
+  },
+  {
+    id: "FocusNum2",
+    numImg: NUMBERTWO,
+    numImgAlt: "NUMBERTWO",
+    para: `Assisting our members with the application process`,
+  },
+  {
+    id: "FocusNum3",
+    numImg: NUMBERTHREE,
+    numImgAlt: "NUMBERTHREE",
+    para: `Equipping non-MBA students with basic business knowledge`,
+  },
+  {
+    id: "FocusNum4",
+    numImg: NUMBERFOUR,
+    numImgAlt: "NUMBERFOUR",
+    para: `Providing opportunities to practice for case interviews`,
+  },
+  {
+    id: "FocusNum5",
+    numImg: NUMBERFIVE,
+    numImgAlt: "NUMBERFIVE",
+    para: `Helping consulting firms facilitate the recruitment of non-MBA graduate students at Penn`,
+  },
+];
+
 // Events Page
 
 export const EVENTSHEADER = "Events";
@@ -144,26 +182,32 @@ export const CONTACTUSSUBHEADER =
 
 export const FooterContent = [
   {
+    id: "FooterHeading1",
     footerHeading: "Partnering Organizations",
     footerList: [
       {
+        id: "FooterHeading1Item1",
         name: "Penn Biotech Group",
         routeTo: "https://pennbiotechgroup.org/",
       },
       {
+        id: "FooterHeading1Item2",
         name: "PennSEM",
         routeTo: "https://pbgconsulting.org/PBGsite/",
       },
     ],
   },
   {
+    id: "FooterHeading2",
     footerHeading: "Social Media",
     footerList: [
       {
+        id: "FooterHeading2Item1",
         name: "Instagram",
         routeTo: "https://www.instagram.com/upenn_pgcc/",
       },
       {
+        id: "FooterHeading2Item2",
         name: "LinkedIn",
         routeTo: "https://www.linkedin.com/groups/1829393/",
       },
