@@ -1,3 +1,7 @@
+import USER from "./assets/icons/user.png";
+import MONEY from "./assets/icons/money.png";
+import FOLDER from "./assets/icons/folder.png";
+
 // Navbar
 export const HOME = "";
 export const ABOUT = "about";
@@ -44,6 +48,34 @@ export const tabList = [
 export const missionContentParaList = [
   `Penn Graduate Consulting Club (PGCC) is one of the largest student-run consulting clubs for non-MBA graduate students (PhDs, MDs, JDs, master's, etc.) and post-docs at the University of Pennsylvania. The mission of PGCC is to educate the community about the consulting industry and to help advanced degree candidates prepare for a career in consulting.`,
   `PGCC currently has 500+ members and a strong impact on the broader Penn Community. More than 80% of our members show great passion for a consulting career, and more than 200 members will be applying for full-time jobs or internships in the next recruiting cycle.`,
+];
+
+export const PGCCGetInvolvedList = [
+  {
+    id: "PGCCGetInvolved1",
+    titleIcon: USER,
+    title: "Join Our Executive Board",
+    para: `Are you a graduate candidate or post-doc interested in consulting looking to be part of our organization? Applications now open for co-chair of case competition, VP for finance, VP for career development, and VP for business administration.`,
+    buttonText: "Learn more and apply",
+    buttonRoute:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfeOiYdNQLtip8O-Hzjzu-NNe0WmE5KBOFTy4bxV4vcfhIO3A/viewform",
+  },
+  {
+    id: "PGCCGetInvolved2",
+    titleIcon: MONEY,
+    title: "Become a Sponsor",
+    para: `Sponsoring our annual PGCC Case Competition offers a great branding opportunity for your organization.`,
+    buttonText: "Find out more",
+    buttonRoute: `/${SPONSORS}`,
+  },
+  {
+    id: "PGCCGetInvolved3",
+    titleIcon: FOLDER,
+    title: "Work With Us",
+    para: `PGCC offers pro bono consulting to organizations, providing consultants with analytical skillsets and creativity.`,
+    buttonText: "Learn more",
+    buttonRoute: `/${CONSULTING}`,
+  },
 ];
 
 export const PGCCNumStatsList = [

@@ -6,6 +6,7 @@ import { setActiveTab } from "../Navbar/NavbarSlice";
 import { HOME } from "../../pgccConstants";
 import Landing from "./Landing/Landing";
 import MissionCarousel from "./MissionCarousel/MissionCarousel";
+import GetInvolved from "./GetInvolved/GetInvolved";
 import ClubStats from "./ClubStats/ClubStats";
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
     <>
       <Landing />
       <MissionCarousel />
+      <GetInvolved />
       <ClubStats />
     </>
   );
