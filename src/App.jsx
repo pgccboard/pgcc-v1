@@ -22,6 +22,7 @@ import {
 
 import "./App.css";
 import MailList from "./features/MailList/MailList";
+import Footer from "./features/Footer/Footer";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           </Routes>
           <MailList />
         </div>
+        <Footer />
       </BrowserRouter>
     </>
   );

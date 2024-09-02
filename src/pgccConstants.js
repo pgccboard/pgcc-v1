@@ -139,3 +139,34 @@ export const CALENDARSUBHEADER = "Follow along with us with our events";
 export const CONTACTUSHEADER = "Get in touch";
 export const CONTACTUSSUBHEADER =
   "Inquire about our club through the form and we will respond within 48 hours";
+
+// Footer
+
+export const FooterContent = [
+  {
+    footerHeading: "Partnering Organizations",
+    footerList: [
+      {
+        name: "Penn Biotech Group",
+        routeTo: "https://pennbiotechgroup.org/",
+      },
+      {
+        name: "PennSEM",
+        routeTo: "https://pbgconsulting.org/PBGsite/",
+      },
+    ],
+  },
+  {
+    footerHeading: "Social Media",
+    footerList: [
+      {
+        name: "Instagram",
+        routeTo: "https://www.instagram.com/upenn_pgcc/",
+      },
+      {
+        name: "LinkedIn",
+        routeTo: "https://www.linkedin.com/groups/1829393/",
+      },
+    ],
+  },
+];
