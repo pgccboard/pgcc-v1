@@ -5,6 +5,8 @@ import { setActiveTab } from "../Navbar/NavbarSlice";
 
 import Banner from "../Banner/Banner";
 import Overview from "../Overview/Overview";
+import OurFocus from "./OurFocus/OurFocus";
+import ExecBoard from "./ExecBoard/ExecBoard";
 
 import {
   ABOUT,
@@ -12,7 +14,6 @@ import {
   ABOUTOVERVIEW,
   ABOUTSUBHEADER,
 } from "../../pgccConstants";
-import OurFocus from "./OurFocus/OurFocus";
 
 function About() {
   const dispatch = useDispatch();
@@ -26,6 +27,7 @@ function About() {
       <Banner title={ABOUTHEADER} subTitle={ABOUTSUBHEADER} />
       <Overview content={ABOUTOVERVIEW} />
       <OurFocus />
+      <ExecBoard />
     </>
   );
 }
