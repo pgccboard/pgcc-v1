@@ -1,11 +1,25 @@
 import USER from "./assets/icons/user.png";
 import MONEY from "./assets/icons/money.png";
 import FOLDER from "./assets/icons/folder.png";
+
 import NUMBERONE from "./assets/icons/numbers/1.png";
 import NUMBERTWO from "./assets/icons/numbers/2.png";
 import NUMBERTHREE from "./assets/icons/numbers/3.png";
 import NUMBERFOUR from "./assets/icons/numbers/4.png";
 import NUMBERFIVE from "./assets/icons/numbers/5.png";
+
+import JIHANCHEN from "./assets/headshots/JihanChen.jpg";
+import MARCOSSANCHEZNAVARRO from "./assets/headshots/MarcosSanchezNavarro.jpg";
+import SHIYAONING from "./assets/headshots/ShiyaoNing.jpg";
+import RILKWONG from "./assets/headshots/RilkWong.jpg";
+import ZHIHUISI from "./assets/headshots/ZhihuiSu.jpeg";
+import UTKARSHKHANDELWAL from "./assets/headshots/UtkarshKhandelwal.jpg";
+import ETHANTSE from "./assets/headshots/EthanTse.png";
+import SUSANNABELT from "./assets/headshots/SusannaBelt.jpeg";
+import SIROUWANG from "./assets/headshots/SirouWang.jpg";
+import SEZINADAYAYDIN from "./assets/headshots/SezinAdayAydin.jpg";
+import ALICEHOU from "./assets/headshots/AliceHou.jpg";
+import SHREYASRAORANE from "./assets/headshots/ShreyasRaorane.jpg";
 
 // Navbar
 export const HOME = "";
@@ -60,10 +74,10 @@ export const PGCCGetInvolvedList = [
     id: "PGCCGetInvolved1",
     titleIcon: USER,
     title: "Join Our Executive Board",
-    para: `Are you a graduate candidate or post-doc interested in consulting looking to be part of our organization? Applications now open for co-chair of case competition, VP for finance, VP for career development, and VP for business administration.`,
+    para: `Are you a graduate candidate or post-doc interested in consulting looking to be part of our organization? Applications Open!`,
     buttonText: "Learn more and apply",
     buttonRoute:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfeOiYdNQLtip8O-Hzjzu-NNe0WmE5KBOFTy4bxV4vcfhIO3A/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfC4CrmC7CDmbE9xSZ7_tMwBMKTfObncPPYZxS0uEaA_rXFKg/viewform",
   },
   {
     id: "PGCCGetInvolved2",
@@ -137,6 +151,117 @@ export const OurFocusList = [
     numImg: NUMBERFIVE,
     numImgAlt: "NUMBERFIVE",
     para: `Helping consulting firms facilitate the recruitment of non-MBA graduate students at Penn`,
+  },
+];
+
+export const execBoardList = [
+  {
+    id: `jihan`,
+    content: `Jihan is a 2nd-year MS candidate in the Computer and Information Technology (MCIT) program in the School of Engineering and Applied Sciences. Prior to becoming Co-President, he was a VP of Marketing Strategy at PGCC in the 2023-2024 academic year. While varied, his career interests include software engineering, product management, technology consulting, and management consulting. As Co-President, Jihan hopes to continue expanding PGCC’s influence on Penn’s campus, level up PGCC’s technological front, and bring more high-quality in-person events and programs to PGCC members and those interested in consulting and business-relevant careers. Outside of PGCC and his CS coursework, Jihan enjoys learning hip-hop and k-pop choreographies, reading, and city-walking.`,
+    name: "Jihan Chen",
+    title: "Co-President",
+    linkedin: "https://www.linkedin.com/in/9912-jihan-chen/",
+    email: "jihanc@seas.upenn.edu",
+    image: JIHANCHEN,
+  },
+  {
+    id: `marcos`,
+    content: `Marcos Sanchez is a 5th year PhD Candidate in the Neuroscience Graduate Group (NGG) at the Perelman School of Medicine. His PhD thesis work seeks to understand how obesity impacts neural circuits encoding the rewarding value of food and regulating appetite to identify more effective pharmacotherapies to treat obesity. Marcos is fascinated by the intersection of science, innovation, and real-world applications; therefore, he is interested in pursuing careers in life science consulting, or more broadly, biopharmaceutical companies. Prior to becoming Co-President, he was a VP of Operations at PGCC in the 2023-2024 academic year. As Co-President of PGCC, Marcos is dedicated to ensuring PGCC continues to improve and provides its members experience and all the necessary tools to succeed in the world of management consulting. Outside of PGCC and the laboratory setting, Marcos is an avid sports fan, enjoys dancing salsa and bachata, playing video games, and loves going to the beach.`,
+    name: "Marcos Sanchez",
+    title: "Co-President",
+    linkedin: "/about",
+    email: "Sanma@pennmedicine.upenn.edu",
+    image: MARCOSSANCHEZNAVARRO,
+  },
+  {
+    id: `shiyao`,
+    content: `Shiyao is a first-year Master of Biotechnology candidate at Penn Engineering. She recently graduated from the University of Toronto with majors in Biochemistry and Human Biology and is now moving into biotechnology consulting and investment. As Co-VP of Marketing Strategy for PGCC, Shiyao aims to enhance PGCC’s impact by engaging the campus community in exploring careers in consulting. She is enthusiastic about leveraging her past experiences at IQVIA management consulting and Mengniu Dairy's Corporate Venture Capital to bring insightful and interactive events to PGCC members. On weekends, Shiyao loves to spend time in nature with her friends and her dog, Tezzy.`,
+    name: "Shiyao Ning",
+    title: "Co-VP of Marketing Strategy",
+    linkedin: "http://linkedin.com/in/sning",
+    email: "sning@seas.upenn.edu",
+    image: SHIYAONING,
+  },
+  {
+    id: `rilk`,
+    content: `Rilk is a 1st-year Master of Science candidate in System Engineering at Penn Engineering. He has recently completed his bachelor degree of science in Financial Mathematics in Xi’an Jiaotong-Liverpool University, China. He has worked at an angel investment company and is interested in Data Analysis, Data Transaction and Tech Consulting. He has been responsible for several transnational landing projects and has rich experience in marketing. As the Co-VP of Marketing Strategy, Rilk hopes to maximize PGCC’s influence and benefit Graduate students at Penn as much as possible. Outside of PGCC and working, Rilk is an avid shutterbug, he also enjoys badminton, basketball and road trips.`,
+    name: "Rilk Wong",
+    title: "Co-VP of Marketing Strategy",
+    linkedin: "/about",
+    email: "rilk@seas.upenn.edu",
+    image: RILKWONG,
+  },
+  {
+    id: `zhihui`,
+    content: `Zhihui Su is a 5th year PhD Candidate in the Chemical and Biomolecular Engineering (CBE) in the School of Engineering and Applied Sciences (SEAS). Her PhD thesis work focuses on building synthetic membraneless organelles with intrinsically disordered protein linked with short coiled-coil peptide motifs. Beyond her research pursuits, Zhihui is deeply passionate about exploring the intersection of biotechnology and business, specifically pharmaceutical and life sciences consulting. Prior to becoming the Co-VP of Casing at PGCC, Zhihui has served as the Treasurer for American Chemical Society Biochemical Division (ACS BIOT) Mid-Atlantic Chapter in the 2021-2024 academic year; received Mini-MBA certificate from Penn Biotech Group (PBG) in 2023; and won fourth place in 2023 PBG Biotech Investment Research Program Pitch Competition. As Co-VP of Casing, Zhihui is dedicated to equipping members with business knowledge and analytical skills and engaging members with case interview workshops. Furthermore, Zhihui is also excited to organize case competition events. In her free time, Zhihui enjoys traveling, hiking, and working out.`,
+    name: "Zhihui Su",
+    title: "Co-VP of Casing",
+    linkedin: "https://www.linkedin.com/in/zhihui-su-813264a4/?locale=en_US",
+    email: "zhihuisu@seas.upenn.edu",
+    image: ZHIHUISI,
+  },
+  {
+    id: `utkarsh`,
+    content: `Utkarsh Khandelwal is a 4th-year PhD candidate in the Materials Science and Engineering (MSE) program in the School of Engineering and Applied Sciences (SEAS) at the University of Pennsylvania. His PhD research focuses on unraveling the complexities of light-matter interaction in quantum materials. Utkarsh is passionate about collaborating with brilliant minds and tackling intricate problems, which drives his academic and professional endeavors. Prior to assuming the role of VP of Casing, Utkarsh was an integral part of the Case-Aces team, which clinched first place in the prestigious 2024 Penn-Yale-Princeton-Columbia (PYPC) Case Competition. His experience in competitive casing has fueled his commitment to creating an engaging learning environment within PGCC, where members can deepen their understanding of case interviews and hone their skills through practice. As VP of Casing, Utkarsh is dedicated to facilitating comprehensive case interview workshops and organizing events that empower members to excel in their consulting pursuits. Outside of his academic and professional commitments, Utkarsh enjoys an active lifestyle. He loves going on runs, exploring nature through hikes, and immersing himself in a good book.`,
+    name: "Utkarsh Khandelwal",
+    title: "Co-VP of Casing",
+    linkedin: "https://www.linkedin.com/in/utkarsh-k-2aa0b5127/",
+    email: "kutkarsh@seas.upenn.edu",
+    image: UTKARSHKHANDELWAL,
+  },
+  {
+    id: `ethan`,
+    content: `Ethan Tse is a 2nd year Masters of Public Health (MPH) student at the Perelman School of Medicine. He completed his undergrad at California Polytechnic State University, San Luis Obispo, with a BS in Public Health and double minors in Entrepreneurship and Tech Policy. Passionate about healthcare, emerging technologies, and social impact, he's navigated a wide array of experiences ranging from PE/VC, consulting, business development, startups, public health research, and entrepreneurship. As a Co-VP of Career Development, Ethan's aims to support his peers in blazing their own trail into the world of consulting and beyond.  At Penn, he's also involved in Wharton Impact Venture Associates and Penn Biotech Group as the Co-VP of Case Competition. In his free time, Ethan can be found playing basketball, running half marathons, relaxing on the Schuylkill river trail, seeing family in NYC, and cultivating his entrepreneurial network.`,
+    name: "Ethan Tse",
+    title: "Co-VP of Career Development",
+    linkedin: "https://www.linkedin.com/in/ethan-tse-story/",
+    email: "ethan.tse@pennmedicine.upenn.edu",
+    image: ETHANTSE,
+  },
+  {
+    id: `susanna`,
+    content: `Susanna Belt is a 4th year doctoral candidate in Chemical and Biomolecular Engineering at the University of Pennsylvania. She completed her undergraduate degree in Chemical and Biological Engineering at Princeton University and her masters degree in Biomedical Engineering from Columbia University, where her research focused on developing bioprosthetic heart valves for use in pediatric patients. Her current research focuses on evaluating how cellular contractility controls extracellular matrix composition and function of developing hearts. It uses a combination of optical live imaging, RNA sequencing techniques, and second harmonic imaging to dissect these mechanosensitive cardiac pathways. Before joining the PGCC E-board as a Co-VP of Career Development, Susanna was on the graduate board for Advancing Women in Engineering (AWE) and was Co-President of the Chemical Engineering Graduate Association (CHEGA). As Co-VP of Career Development for PGCC, she is dedicated to curating events, such as collaborative workshops geared toward aiding students with each step of the hiring process, from resume building to interview prep, designed to not only connect members with not only career opportunities but also PGCC alumni to provide personal insight into the consulting industry. In her free time, she loves painting, traveling to new places, and reading in the rain.`,
+    name: "Susanna Belt",
+    title: "Co-VP of Career Development",
+    linkedin: "https://www.linkedin.com/in/susanna-belt/",
+    email: "sbelt@seas.upenn.edu",
+    image: SUSANNABELT,
+  },
+  {
+    id: `sirou`,
+    content: `Sirou Wang is a 2nd year student at the University of Pennsylvania majoring in Interdisciplinary Studies in Human Development with a concentration in basic counseling. With a strong background as an analyst and project manager on the PGCC Spotivity pro bono project, Sirou hopes to better PGCC by diversifying its projects and initiatives. In addition to her work with PGCC, Sirou was involved with the Penn Biotech Group as an analyst and is currently interning at Think Advanced Learning (TAL or Xue Er Si) as a course development intern. Alongside her internship, she runs her own English learning program. Sirou is passionate about pursuing opportunities related to education, educational consulting, and entrepreneurship. In her free time, she enjoys traveling, hanging out, yapping, painting, and playing the guitar.`,
+    name: "Sirou Wang",
+    title: "Co-VP of Pro Bono Projects",
+    linkedin: "https://www.linkedin.com/in/rose-wang-b4193b1b2",
+    email: "sirou@upenn.edu",
+    image: SIROUWANG,
+  },
+  {
+    id: `sezin`,
+    content: `Sezin is a postdoctoral fellow and project manager in the Bioengineering Department. She is an experienced researcher and tech transfer enthusiast who wants to create successful products/services that can significantly impact life sciences and improve patients' lives. Her research interests cover cell culture models, including organ-on-a-chip systems; micro- and nano-technologies for regenerative medicine; miRNAs in health and disease/injury; extracellular vesicles as therapeutics and biomarkers; and therapeutic angiogenesis. Before becoming the Co-VP of Pro Bono Projects at PGCC, Sezin was involved in 8 pro bono projects as manager/director. She was also a Penn Center for Innovation (PCI) fellow and a biotech venture team member. She got 2nd prize with her team at the Penn-Yale-Princeton, Columbia (PYPC) Case Competition and 1st prize at the PGCC Casebook Competition in 2023. As Co-VP of Pro Bono Projects, she aims to provide pro bono project opportunities that align with the interests of PGCC members and to attract new industry partners for the continuous growth of the club. She enjoys journaling, reading, and spending time with her cats in her free time.`,
+    name: "Sezin Aday Aydin",
+    title: "Co-VP of Pro Bono Projects",
+    linkedin: "https://www.linkedin.com/in/sezin-aday-aydin/",
+    email: "sezin@seas.upenn.edu",
+    image: SEZINADAYAYDIN,
+  },
+  {
+    id: `alice`,
+    content: `Alice is an incoming Master of Biotechnology candidate at Penn Engineering. She graduated from Emory University in 2023 with a major in Biology and a minor in Economics. Currently, she works in the neurology lab at the Children's Hospital of Philadelphia, supporting translational research on patients with Leukodystrophy. Alice is particularly passionate about pursuing a career in the healthcare field. As the VP of Finance, Alice will bring valuable experience from her previous role, where she developed her skills in financial management and organizational leadership. In this role, she aims to secure sponsorships, manage the club's budget, and ensure financial transparency. Alice will work closely with other divisions to allocate resources effectively and support various initiatives and activities. Outside of her professional and academic pursuits, Alice enjoys playing tennis with friends and singing acapella. She also shares her home with two beloved cats.`,
+    name: "Alice Hou",
+    title: "VP of Finance",
+    linkedin: "/about",
+    email: "zhou639@seas.upenn.edu",
+    image: ALICEHOU,
+  },
+  {
+    id: `shreyas`,
+    content: `Shreyas is a first-year Master of Robotics candidate at Penn Engineering with two years of professional experience in software development. During this time, he has honed his skills in website development, contributing to a range of projects with enthusiasm and precision. Shreyas is now eager to bring his expertise and innovative approach to PGCC, where he aims to make a meaningful impact. In his role as VP of Technology, apart from revamping the website, he plans to introduce new digital tools and platforms to streamline data collection and optimize event management. Outside of work and academics, he enjoys swimming and playing chess, finding these activities both refreshing and intellectually stimulating.`,
+    name: "Shreyas Raorane",
+    title: "VP of Technology",
+    linkedin: "https://www.linkedin.com/in/shreyas-raorane/",
+    email: "raorane@seas.upenn.edu",
+    image: SHREYASRAORANE,
   },
 ];
 
