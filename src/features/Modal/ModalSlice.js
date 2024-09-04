@@ -5,9 +5,9 @@ const initialState = {
     modalTitle: "",
     modalSubtitle: "",
     modalContent: "",
-    modalButtons: false,
+    modalButtons: [],
   },
-  showModal: false,
+  modalState: false,
 };
 
 export const modalSlice = createAppSlice({
@@ -15,25 +15,25 @@ export const modalSlice = createAppSlice({
   initialState,
   reducers: (create) => ({
     showModal: create.reducer((state, action) => {
-      state.showModal = true;
+      state.modalState = true;
       state.modalDetails = action.payload;
     }),
     hideModal: create.reducer((state) => {
-      state.showModal = false;
+      state.modalState = false;
       state.modalDetails = {
         modalTitle: "",
         modalSubtitle: "",
         modalContent: "",
-        modalButtons: false,
+        modalButtons: [],
       };
     }),
   }),
   selectors: {
-    selectShowModal: (state) => state.showModal,
+    selectModalState: (state) => state.modalState,
     selectModalDetails: (state) => state.modalDetails,
   },
 });
 
 export const { showModal, hideModal } = modalSlice.actions;
 
-export const { selectModalDetails, selectShowModal } = modalSlice.selectors;
+export const { selectModalDetails, selectModalState } = modalSlice.selectors;

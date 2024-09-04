@@ -250,7 +250,7 @@ export const execBoardList = [
     content: `Alice is an incoming Master of Biotechnology candidate at Penn Engineering. She graduated from Emory University in 2023 with a major in Biology and a minor in Economics. Currently, she works in the neurology lab at the Children's Hospital of Philadelphia, supporting translational research on patients with Leukodystrophy. Alice is particularly passionate about pursuing a career in the healthcare field. As the VP of Finance, Alice will bring valuable experience from her previous role, where she developed her skills in financial management and organizational leadership. In this role, she aims to secure sponsorships, manage the club's budget, and ensure financial transparency. Alice will work closely with other divisions to allocate resources effectively and support various initiatives and activities. Outside of her professional and academic pursuits, Alice enjoys playing tennis with friends and singing acapella. She also shares her home with two beloved cats.`,
     name: "Alice Hou",
     title: "VP of Finance",
-    linkedin: "/about",
+    linkedin: "www.linkedin.com/in/zhongqi-alice-hou-83a357218",
     email: "zhou639@seas.upenn.edu",
     image: ALICEHOU,
   },
