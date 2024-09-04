@@ -23,8 +23,13 @@ import {
 import "./App.css";
 import MailList from "./features/MailList/MailList";
 import Footer from "./features/Footer/Footer";
+import Modal from "./features/Modal/Modal";
+import { useSelector } from "react-redux";
+import { selectModalState } from "./features/Modal/ModalSlice";
 
 function App() {
+  const modalState = useSelector(selectModalState);
+
   return (
     <>
       <BrowserRouter>
@@ -42,6 +47,7 @@ function App() {
           </Routes>
           <MailList />
         </div>
+        {modalState && <Modal />}
         <Footer />
       </BrowserRouter>
     </>
