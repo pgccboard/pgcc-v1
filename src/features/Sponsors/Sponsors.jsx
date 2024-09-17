@@ -10,6 +10,8 @@ import BENEFITSPDF from "../../assets/sponsors/sponsor-benefits.pdf";
 
 import {
   CONTACTUS,
+  GOLDSPONSORSLIST,
+  SILVERSPONSORSLIST,
   SPONSORS,
   SPONSORSCONTENT,
   SPONSORSHEADER,
@@ -18,6 +20,7 @@ import {
 
 import AGREEMENT from "../../assets/icons/agreement.png";
 import { Link } from "react-router-dom";
+import ShowSponsors from "./ShowSponsors/SpowSponsors";
 
 function Sponsors() {
   const dispatch = useDispatch();
@@ -52,6 +55,14 @@ function Sponsors() {
           ></img>
         </div>
       </Overview>
+      <ShowSponsors
+        sponsorHeader={"Gold Sponsors"}
+        sponsorList={GOLDSPONSORSLIST}
+      />
+      <ShowSponsors
+        sponsorHeader={"Silver Sponsors"}
+        sponsorList={SILVERSPONSORSLIST}
+      />
     </>
   );
 }
