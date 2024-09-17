@@ -21,6 +21,10 @@ import SEZINADAYAYDIN from "./assets/headshots/SezinAdayAydin.jpg";
 import ALICEHOU from "./assets/headshots/AliceHou.jpg";
 import SHREYASRAORANE from "./assets/headshots/ShreyasRaorane.jpg";
 
+import INFOSOCIAL from "./assets/events/Info-Social.png";
+import MEMBERSHIPAPPLICATIONFLYER from "./assets/events/Membership-Application-Flyer.png";
+import PROBONOPROJECTSFALL2024 from "./assets/events/Pro-Bono-Projects-Fall-2024 .png";
+
 // Navbar
 export const HOME = "";
 export const ABOUT = "about";
@@ -169,7 +173,7 @@ export const execBoardList = [
     content: `Marcos Sanchez is a 5th year PhD Candidate in the Neuroscience Graduate Group (NGG) at the Perelman School of Medicine. His PhD thesis work seeks to understand how obesity impacts neural circuits encoding the rewarding value of food and regulating appetite to identify more effective pharmacotherapies to treat obesity. Marcos is fascinated by the intersection of science, innovation, and real-world applications; therefore, he is interested in pursuing careers in life science consulting, or more broadly, biopharmaceutical companies. Prior to becoming Co-President, he was a VP of Operations at PGCC in the 2023-2024 academic year. As Co-President of PGCC, Marcos is dedicated to ensuring PGCC continues to improve and provides its members experience and all the necessary tools to succeed in the world of management consulting. Outside of PGCC and the laboratory setting, Marcos is an avid sports fan, enjoys dancing salsa and bachata, playing video games, and loves going to the beach.`,
     name: "Marcos Sanchez",
     title: "Co-President",
-    linkedin: "/about",
+    linkedin: "www.linkedin.com/in/marcos-sanchez-72b534145",
     email: "Sanma@pennmedicine.upenn.edu",
     image: MARCOSSANCHEZNAVARRO,
   },
@@ -271,6 +275,24 @@ export const EVENTSHEADER = "Events";
 export const EVENTSSUBHEADER =
   "Get involved with PGCC by attending or hosting events with us";
 export const EVENTSOVERVIEW = `PGCC hosts panels with speakers from top consulting and business firms as well as guided case workshops, helping members network and prepare for interviews. Follow our Facebook and Instagram to stay up to date about our events and subscribe to our newsletter for more information.`;
+
+export const EVENTSUPCOMINGLIST = [
+  {
+    id: "upcoming-event-1",
+    imgSrc: INFOSOCIAL,
+    imgAlt: "INFOSOCIAL",
+  },
+  {
+    id: "upcoming-event-2",
+    imgSrc: MEMBERSHIPAPPLICATIONFLYER,
+    imgAlt: "MEMBERSHIPAPPLICATIONFLYER",
+  },
+  {
+    id: "upcoming-event-3",
+    imgSrc: PROBONOPROJECTSFALL2024,
+    imgAlt: "PROBONOPROJECTSFALL2024",
+  },
+];
 
 // Consulting Page
 

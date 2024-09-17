@@ -12,6 +12,7 @@ import {
   EVENTSOVERVIEW,
   EVENTSSUBHEADER,
 } from "../../pgccConstants";
+import UpcomingEvents from "./UpcomingEvents/UpcomingEvents";
 
 function Events() {
   const dispatch = useDispatch();
@@ -24,6 +25,7 @@ function Events() {
     <>
       <Banner title={EVENTSHEADER} subTitle={EVENTSSUBHEADER} />
       <Overview content={EVENTSOVERVIEW} />
+      <UpcomingEvents />
     </>
   );
 }
