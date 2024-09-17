@@ -12,6 +12,7 @@ import {
   CONSULTINGOVERVIEW,
   CONSULTINGSUBHEADER,
 } from "../../pgccConstants";
+import BecomeClient from "./BecomeClient/BecomeClient";
 
 function Consulting() {
   const dispatch = useDispatch();
@@ -24,6 +25,7 @@ function Consulting() {
     <>
       <Banner title={CONSULTINGHEADER} subTitle={CONSULTINGSUBHEADER} />
       <Overview content={CONSULTINGOVERVIEW} />
+      <BecomeClient />
     </>
   );
 }
