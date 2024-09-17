@@ -21,6 +21,7 @@ import {
 import AGREEMENT from "../../assets/icons/agreement.png";
 import { Link } from "react-router-dom";
 import ShowSponsors from "./ShowSponsors/SpowSponsors";
+import SPONSORFAQ from "./SponsorFAQ/SponsorFAQ";
 
 function Sponsors() {
   const dispatch = useDispatch();
@@ -63,6 +64,7 @@ function Sponsors() {
         sponsorHeader={"Silver Sponsors"}
         sponsorList={SILVERSPONSORSLIST}
       />
+      <SPONSORFAQ />
     </>
   );
 }
