@@ -25,6 +25,22 @@ import INFOSOCIAL from "./assets/events/Info-Social.png";
 import MEMBERSHIPAPPLICATIONFLYER from "./assets/events/Membership-Application-Flyer.png";
 import PROBONOPROJECTSFALL2024 from "./assets/events/Pro-Bono-Projects-Fall-2024 .png";
 
+import BCG from "./assets/sponsors/gold/bcg.png";
+import BGSA from "./assets/sponsors/gold/bgsa.jpeg";
+import CLEARVIEW from "./assets/sponsors/gold/clearview.png";
+import GAPSA from "./assets/sponsors/gold/gapsa.png";
+import LEK from "./assets/sponsors/gold/lek.jpg";
+import LPS from "./assets/sponsors/gold/lps.png";
+import MCKINSEY from "./assets/sponsors/gold/mckinsey.jpg";
+import PENNENG from "./assets/sponsors/gold/penn-eng.png";
+
+import FANSURE from "./assets/sponsors/silver/fansure.png";
+import LANDMARK from "./assets/sponsors/silver/landmark.png";
+import PENNARTS from "./assets/sponsors/silver/penn-arts.png";
+import PENNDESIGN from "./assets/sponsors/silver/penn-design.png";
+import PENNSPP from "./assets/sponsors/silver/penn-spp.jpeg";
+import PREPLOUNGE from "./assets/sponsors/silver/preplounge.png";
+
 // Navbar
 export const HOME = "";
 export const ABOUT = "about";
@@ -307,6 +323,68 @@ export const SPONSORSHEADER = "Sponsors";
 export const SPONSORSSUBHEADER =
   "Connect with top talent while supporting our members";
 export const SPONSORSCONTENT = `PGCC offers firms the chance to network with a future talent pool consisting of over 500 graduate students and postdocs from the University of Pennsylvania. Our sponsors create opportunities for our members by funding case competitions, speaker events, and scholarships. Reach out to us to learn how you can become a sponsor.`;
+
+export const GOLDSPONSORSLIST = [
+  {
+    logo: BCG,
+    link: "https://www.bcg.com/",
+  },
+  {
+    logo: BGSA,
+    link: "https://www.bcg.com/",
+  },
+  {
+    logo: CLEARVIEW,
+    link: "http://www.clearviewhcp.com/",
+  },
+  {
+    logo: GAPSA,
+    link: "https://www.gapsa.upenn.edu/",
+  },
+  {
+    logo: LEK,
+    link: "https://www.lek.com/",
+  },
+  {
+    logo: MCKINSEY,
+    link: "https://www.mckinsey.com/",
+  },
+  {
+    logo: LPS,
+    link: "https://www.sas.upenn.edu/lps/welcome",
+  },
+  {
+    logo: PENNENG,
+    link: "https://www.seas.upenn.edu/",
+  },
+];
+
+export const SILVERSPONSORSLIST = [
+  {
+    logo: FANSURE,
+    link: "https://fansure.com/",
+  },
+  {
+    logo: LANDMARK,
+    link: "http://www.landmarkamericana.com//",
+  },
+  {
+    logo: PENNARTS,
+    link: "https://www.sas.upenn.edu/",
+  },
+  {
+    logo: PENNDESIGN,
+    link: "https://www.design.upenn.edu/",
+  },
+  {
+    logo: PENNSPP,
+    link: "https://www.sp2.upenn.edu/",
+  },
+  {
+    logo: PREPLOUNGE,
+    link: "https://www.preplounge.com/en/",
+  },
+];
 
 // Resources Page
 
