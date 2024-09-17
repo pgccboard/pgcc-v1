@@ -13,6 +13,7 @@ import {
   CONSULTINGSUBHEADER,
 } from "../../pgccConstants";
 import BecomeClient from "./BecomeClient/BecomeClient";
+import StudentJoin from "./StudentJoin/StudentJoin";
 
 function Consulting() {
   const dispatch = useDispatch();
@@ -26,6 +27,7 @@ function Consulting() {
       <Banner title={CONSULTINGHEADER} subTitle={CONSULTINGSUBHEADER} />
       <Overview content={CONSULTINGOVERVIEW} />
       <BecomeClient />
+      <StudentJoin />
     </>
   );
 }
