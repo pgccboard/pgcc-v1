@@ -13,7 +13,6 @@ import MARCOSSANCHEZNAVARRO from "./assets/headshots/MarcosSanchezNavarro.jpg";
 import SHIYAONING from "./assets/headshots/ShiyaoNing.jpg";
 import RILKWONG from "./assets/headshots/RilkWong.jpg";
 import ZHIHUISI from "./assets/headshots/ZhihuiSu.jpeg";
-import UTKARSHKHANDELWAL from "./assets/headshots/UtkarshKhandelwal.jpg";
 import ETHANTSE from "./assets/headshots/EthanTse.png";
 import SUSANNABELT from "./assets/headshots/SusannaBelt.jpeg";
 import SIROUWANG from "./assets/headshots/SirouWang.jpg";
@@ -65,7 +64,7 @@ export const tabList = [
     tabPath: EVENTS,
   },
   {
-    tabName: "Consulting",
+    tabName: "Pro Bono Projects",
     tabPath: CONSULTING,
   },
   {
@@ -76,10 +75,10 @@ export const tabList = [
     tabName: "Resources",
     tabPath: RESOURCES,
   },
-  {
-    tabName: "Calendar",
-    tabPath: CALENDAR,
-  },
+  // {
+  //   tabName: "Calendar",
+  //   tabPath: CALENDAR,
+  // },
 ];
 
 //Home Page
@@ -221,15 +220,6 @@ export const execBoardList = [
     image: ZHIHUISI,
   },
   {
-    id: `utkarsh`,
-    content: `Utkarsh Khandelwal is a 4th-year PhD candidate in the Materials Science and Engineering (MSE) program in the School of Engineering and Applied Sciences (SEAS) at the University of Pennsylvania. His PhD research focuses on unraveling the complexities of light-matter interaction in quantum materials. Utkarsh is passionate about collaborating with brilliant minds and tackling intricate problems, which drives his academic and professional endeavors. Prior to assuming the role of VP of Casing, Utkarsh was an integral part of the Case-Aces team, which clinched first place in the prestigious 2024 Penn-Yale-Princeton-Columbia (PYPC) Case Competition. His experience in competitive casing has fueled his commitment to creating an engaging learning environment within PGCC, where members can deepen their understanding of case interviews and hone their skills through practice. As VP of Casing, Utkarsh is dedicated to facilitating comprehensive case interview workshops and organizing events that empower members to excel in their consulting pursuits. Outside of his academic and professional commitments, Utkarsh enjoys an active lifestyle. He loves going on runs, exploring nature through hikes, and immersing himself in a good book.`,
-    name: "Utkarsh Khandelwal",
-    title: "Co-VP of Casing",
-    linkedin: "https://www.linkedin.com/in/utkarsh-k-2aa0b5127/",
-    email: "kutkarsh@seas.upenn.edu",
-    image: UTKARSHKHANDELWAL,
-  },
-  {
     id: `ethan`,
     content: `Ethan Tse is a 2nd year Masters of Public Health (MPH) student at the Perelman School of Medicine. He completed his undergrad at California Polytechnic State University, San Luis Obispo, with a BS in Public Health and double minors in Entrepreneurship and Tech Policy. Passionate about healthcare, emerging technologies, and social impact, he's navigated a wide array of experiences ranging from PE/VC, consulting, business development, startups, public health research, and entrepreneurship. As a Co-VP of Career Development, Ethan's aims to support his peers in blazing their own trail into the world of consulting and beyond.  At Penn, he's also involved in Wharton Impact Venture Associates and Penn Biotech Group as the Co-VP of Case Competition. In his free time, Ethan can be found playing basketball, running half marathons, relaxing on the Schuylkill river trail, seeing family in NYC, and cultivating his entrepreneurial network.`,
     name: "Ethan Tse",
@@ -270,7 +260,7 @@ export const execBoardList = [
     content: `Alice is an incoming Master of Biotechnology candidate at Penn Engineering. She graduated from Emory University in 2023 with a major in Biology and a minor in Economics. Currently, she works in the neurology lab at the Children's Hospital of Philadelphia, supporting translational research on patients with Leukodystrophy. Alice is particularly passionate about pursuing a career in the healthcare field. As the VP of Finance, Alice will bring valuable experience from her previous role, where she developed her skills in financial management and organizational leadership. In this role, she aims to secure sponsorships, manage the club's budget, and ensure financial transparency. Alice will work closely with other divisions to allocate resources effectively and support various initiatives and activities. Outside of her professional and academic pursuits, Alice enjoys playing tennis with friends and singing acapella. She also shares her home with two beloved cats.`,
     name: "Alice Hou",
     title: "VP of Finance",
-    linkedin: "www.linkedin.com/in/zhongqi-alice-hou-83a357218",
+    linkedin: "www.linkedin.com/in/zhongqi-alice-hou-83a357218/",
     email: "zhou639@seas.upenn.edu",
     image: ALICEHOU,
   },
@@ -363,10 +353,6 @@ export const SILVERSPONSORSLIST = [
   {
     logo: FANSURE,
     link: "https://fansure.com/",
-  },
-  {
-    logo: LANDMARK,
-    link: "http://www.landmarkamericana.com//",
   },
   {
     logo: PENNARTS,
