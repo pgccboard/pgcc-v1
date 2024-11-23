@@ -13,8 +13,10 @@ import MARCOSSANCHEZNAVARRO from "./assets/headshots/MarcosSanchezNavarro.jpg";
 import SHIYAONING from "./assets/headshots/ShiyaoNing.jpg";
 import RILKWONG from "./assets/headshots/RilkWong.jpg";
 import ZHIHUISI from "./assets/headshots/ZhihuiSu.jpeg";
+import AIMOCHIDA from "./assets/headshots/AiMochida.png";
 import ETHANTSE from "./assets/headshots/EthanTse.png";
 import SUSANNABELT from "./assets/headshots/SusannaBelt.jpeg";
+import DINISHAMEHTA from "./assets/headshots/DinishaMehta.jpeg";
 import SIROUWANG from "./assets/headshots/SirouWang.jpg";
 import SEZINADAYAYDIN from "./assets/headshots/SezinAdayAydin.jpg";
 import ALICEHOU from "./assets/headshots/AliceHou.jpg";
@@ -32,6 +34,9 @@ import LEK from "./assets/sponsors/gold/lek.jpg";
 import LPS from "./assets/sponsors/gold/lps.png";
 import MCKINSEY from "./assets/sponsors/gold/mckinsey.jpg";
 import PENNENG from "./assets/sponsors/gold/penn-eng.png";
+import MCC from "./assets/sponsors/gold/mcc.png";
+import MCO from "./assets/sponsors/gold/mco.png";
+import THINKCELL from "./assets/sponsors/gold/thinkcell.svg";
 
 import FANSURE from "./assets/sponsors/silver/fansure.png";
 import LANDMARK from "./assets/sponsors/silver/landmark.png";
@@ -39,6 +44,25 @@ import PENNARTS from "./assets/sponsors/silver/penn-arts.png";
 import PENNDESIGN from "./assets/sponsors/silver/penn-design.png";
 import PENNSPP from "./assets/sponsors/silver/penn-spp.jpeg";
 import PREPLOUNGE from "./assets/sponsors/silver/preplounge.png";
+
+import CS from "./assets/resources/case-secrets.jpg";
+import CQ from "./assets/resources/casequestions.jpg";
+import CHARISMA from "./assets/resources/charisma.jpg";
+import FIRM from "./assets/resources/firm.jpg";
+import FC from "./assets/resources/flawless-consulting.jpg";
+import LORDS from "./assets/resources/lords.jpg";
+import MCK from "./assets/resources/mckinsey-way.jpg";
+import EAT from "./assets/resources/never-eat-alone.jpg";
+import PYR from "./assets/resources/pyramid-principle.jpg";
+import TA from "./assets/resources/ta.jpg";
+
+import MCKPOD from "./assets/resources/mckinsey-podcast.jpg";
+import ART from "./assets/resources/art-of-consulting-pod.jpg";
+import STRAT from "./assets/resources/strategy-skills.png";
+import GS from "./assets/resources/gs-logo.png";
+import FREAK from "./assets/resources/freakonomics.png";
+import HBR from "./assets/resources/hbr.jpeg";
+import DEL from "./assets/resources/deloitte.jpg";
 
 // Navbar
 export const HOME = "";
@@ -92,7 +116,7 @@ export const PGCCGetInvolvedList = [
   {
     id: "PGCCGetInvolved1",
     titleIcon: USER,
-    title: "Join Our Executive Board",
+    title: "Become a PGCC Member",
     para: `Are you a graduate candidate or post-doc interested in consulting looking to be part of our organization? Applications Open!`,
     buttonText: "Learn more and apply",
     buttonRoute:
@@ -220,6 +244,15 @@ export const execBoardList = [
     image: ZHIHUISI,
   },
   {
+    id: `ai`,
+    content: `Ai Mochida is a 5th year PhD Candidate in Bioengineering at the School of Engineering and Applied Sciences (SEAS). Her research focuses on using CRISPR genome editing tools to understand how immune cells move throughout the body. As the Co-VP of casing, Ai plans to help the PGCC community master case writing and prepare for casing interviews. She hopes to leverage her analytical skills from her graduate training and bioengineering background to a life sciences consulting career. Outside of PGCC, Ai is a Project Manager at Penn Biotech Group and a Penn Center for Innovation Fellow. In her free time, Ai enjoys running, baking, and growing succulent plants.`,
+    name: "Ai Mochida",
+    title: "Co-VP of Casing",
+    linkedin: "https://www.linkedin.com/in/ai-mochida-151074a2/",
+    email: "amochida@seas.upenn.edu",
+    image: AIMOCHIDA,
+  },
+  {
     id: `ethan`,
     content: `Ethan Tse is a 2nd year Masters of Public Health (MPH) student at the Perelman School of Medicine. He completed his undergrad at California Polytechnic State University, San Luis Obispo, with a BS in Public Health and double minors in Entrepreneurship and Tech Policy. Passionate about healthcare, emerging technologies, and social impact, he's navigated a wide array of experiences ranging from PE/VC, consulting, business development, startups, public health research, and entrepreneurship. As a Co-VP of Career Development, Ethan's aims to support his peers in blazing their own trail into the world of consulting and beyond.  At Penn, he's also involved in Wharton Impact Venture Associates and Penn Biotech Group as the Co-VP of Case Competition. In his free time, Ethan can be found playing basketball, running half marathons, relaxing on the Schuylkill river trail, seeing family in NYC, and cultivating his entrepreneurial network.`,
     name: "Ethan Tse",
@@ -236,6 +269,15 @@ export const execBoardList = [
     linkedin: "https://www.linkedin.com/in/susanna-belt/",
     email: "sbelt@seas.upenn.edu",
     image: SUSANNABELT,
+  },
+  {
+    id: `dinisha`,
+    content: `Dinisha is a 2nd year Masters student at Penn, pursuing Behaviour sciences and Decision under LPS as her majors and Organization Dynamics as her Minor. Dinisha is passionate about leveraging behavioral economics and psychology to drive meaningful change in organizations. She is dedicated to understanding the intricacies of human behavior and applying this knowledge to create strategic, evidence-based solutions that enhances organizational performance and employee well-being. Additionally, Dinisha is also serving as one of the Managing Directors at Penn Student Agencies; and has 4+ years of Human Resources industry experience catering to the Indian region. Her commitment to continuous learning and professional development fuels her enthusiasm for mentoring and guiding future leaders in the consulting industry. She is deeply invested in fostering inclusive and dynamic work environments where every individual can thrive.`,
+    name: "Dinisha Mehta",
+    title: "Co-VP of Career Development",
+    linkedin: "https://www.linkedin.com/in/dinisha-mehta-88ab8a137/",
+    email: "dinisha1997@gmail.com",
+    image: DINISHAMEHTA,
   },
   {
     id: `sirou`,
@@ -280,23 +322,57 @@ export const execBoardList = [
 export const EVENTSHEADER = "Events";
 export const EVENTSSUBHEADER =
   "Get involved with PGCC by attending or hosting events with us";
-export const EVENTSOVERVIEW = `PGCC hosts panels with speakers from top consulting and business firms as well as guided case workshops, helping members network and prepare for interviews. Follow our Facebook and Instagram to stay up to date about our events and subscribe to our newsletter for more information.`;
+export const EVENTSOVERVIEW = `PGCC hosts panels with speakers from top consulting and business firms as well as guided case workshops, helping members network and prepare for interviews. Follow our LinkedIn and Instagram to stay up to date about our events and subscribe to our newsletter for more information.`;
 
-export const EVENTSUPCOMINGLIST = [
+export const EVENTSUPCOMINGLISTIMAGES = [
   {
     id: "upcoming-event-1",
     imgSrc: INFOSOCIAL,
     imgAlt: "INFOSOCIAL",
+    imgRedirect: "",
   },
   {
     id: "upcoming-event-2",
     imgSrc: MEMBERSHIPAPPLICATIONFLYER,
     imgAlt: "MEMBERSHIPAPPLICATIONFLYER",
+    imgRedirect: "",
   },
   {
     id: "upcoming-event-3",
     imgSrc: PROBONOPROJECTSFALL2024,
     imgAlt: "PROBONOPROJECTSFALL2024",
+    imgRedirect: "",
+  },
+];
+
+export const EVENTSUPCOMINGLIST = [
+  {
+    id: "upcoming-event-1",
+    title:
+      "Mastering Data Storytelling with Think Cell: Transform Data into Client-Centric Insights!",
+    description:
+      "Unlock the art of storytelling with data in this dynamic session designed to help you turn complex information into visuals that captivate and persuade. Explore think-cell, the ultimate PowerPoint add-in that simplifies creating charts, diagrams, and PowerPoint slides— so you can focus on your message instead of formatting. Don't miss this chance to boost your data presentation skills and leave a lasting impression with your visuals!",
+    date: "Wednesday, December 4th",
+    time: "6:00 PM",
+    link: "https://forms.gle/eEQfn4SjNFrsDqeC9",
+  },
+  {
+    id: "upcoming-event-2",
+    title: "upcoming event 2",
+    description:
+      "upcoming event description 2 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur, velit ut rutrum euismod, ex sapien rhoncus lorem, elementum maximus magna nisl sed nisl. Duis quis orci efficitur, sodales diam ac, cursus lectus. Morbi non ipsum vel enim blandit blandit. Cras fringilla pharetra erat vel vehicula. Aliquam volutpat egestas metus sed varius. Integer magna turpis, viverra non orci ut, semper faucibus tortor. Nam lobortis molestie enim id molestie. Ut consequat ligula a metus aliquet lacinia.",
+    date: "November 5, 2024",
+    time: "11:23 a.m.",
+    link: "https://www.lipsum.com/feed/html",
+  },
+  {
+    id: "upcoming-event-3",
+    title: "upcoming event 3",
+    description:
+      "upcoming event description 3 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur, velit ut rutrum euismod, ex sapien rhoncus lorem, elementum maximus magna nisl sed nisl. Duis quis orci efficitur, sodales diam ac, cursus lectus. Morbi non ipsum vel enim blandit blandit. Cras fringilla pharetra erat vel vehicula. Aliquam volutpat egestas metus sed varius. Integer magna turpis, viverra non orci ut, semper faucibus tortor. Nam lobortis molestie enim id molestie. Ut consequat ligula a metus aliquet lacinia.",
+    date: "November 5, 2024",
+    time: "11:23 a.m.",
+    link: "https://www.lipsum.com/feed/html",
   },
 ];
 
@@ -306,6 +382,8 @@ export const CONSULTINGHEADER = "Pro Bono Consulting";
 export const CONSULTINGSUBHEADER =
   "PGCC members can solve business problems for companies across a variety of industries";
 export const CONSULTINGOVERVIEW = `PGCC offers pro bono consulting to interested organizations. We staff projects with enthusiastic and bright advanced degree candidates and post-doctoral researchers who use their analytical skillset and creativity to generate solutions for our clients. Projects are staffed with a project director and a project manager, both of whom work closely with the client to scope the project, and 4-6 team members who work together to produce key insights. The end products are a well-crafted deliverable for the client and an inside look into the world of management consulting for the team.`;
+
+export const JOINTEAMLINK = ``;
 
 // Sponsors Page
 
@@ -347,6 +425,18 @@ export const GOLDSPONSORSLIST = [
     logo: PENNENG,
     link: "https://www.seas.upenn.edu/",
   },
+  {
+    logo: MCC,
+    link: "https://www.myconsultingcoach.com/",
+  },
+  {
+    logo: MCO,
+    link: "https://www.myconsultingoffer.org/",
+  },
+  {
+    logo: THINKCELL,
+    link: "https://www.think-cell.com/en",
+  },
 ];
 
 export const SILVERSPONSORSLIST = [
@@ -377,6 +467,202 @@ export const SILVERSPONSORSLIST = [
 export const RESOURCESHEADER = "Helpful Resources";
 export const RESOURCESSUBHEADER =
   "Check out the books, podcasts, and case prep resources PGCC recommends";
+
+export const RESOURCELIST = [
+  {
+    image: CS,
+    type: "case book",
+    link: "https://www.amazon.com/Case-Point-10-Interview-Preparation/dp/0986370746/ref=dp_ob_title_bk",
+  },
+  {
+    image: CQ,
+    type: "case book",
+    link: "https://www.amazon.com/Case-Interview-Secrets-Interviewer-Consulting/dp/0984183523/ref=sr_1_3?crid=TIFD92280WVU&keywords=case+interview+secrets&qid=1553728758&s=books&sprefix=case+inter%2Cstripbooks%2C126&sr=1-3",
+  },
+  {
+    image: CHARISMA,
+    type: "other reading",
+    link: "https://www.amazon.com/The-Charisma-Myth-Personal-Magnetism/dp/1591845947",
+  },
+  {
+    image: FIRM,
+    type: "other reading",
+    link: "https://www.amazon.com/The-Firm-McKinsey-Influence-American/dp/1439190984",
+  },
+  {
+    image: FC,
+    type: "other reading",
+    link: "https://www.amazon.com/Flawless-Consulting-Guide-Getting-Expertise/dp/0470620749/ref=sr_1_8?crid=3KMSVZ3CJF9JM&keywords=the+mckinsey+way&qid=1559249294&s=gateway&sprefix=the+mckinse%2Caps%2C310&sr=8-8",
+  },
+  {
+    image: LORDS,
+    type: "other reading",
+    link: "https://www.amazon.com/The-Lords-Strategy-Intellectual-Corporate/dp/1591397820",
+  },
+  {
+    image: MCK,
+    type: "other reading",
+    link: "https://www.amazon.com/McKinsey-Way-Ethan-M-Rasiel/dp/0070534489/ref=sr_1_1?crid=3KMSVZ3CJF9JM&keywords=the+mckinsey+way&qid=1559248742&s=gateway&sprefix=the+mckinse%2Caps%2C310&sr=8-1",
+  },
+  {
+    image: EAT,
+    type: "other reading",
+    link: "https://www.amazon.com/Never-Eat-Alone-Expanded-Updated/dp/0385346654",
+  },
+  {
+    image: PYR,
+    type: "other reading",
+    link: "https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516/ref=sr_1_3?crid=3KMSVZ3CJF9JM&keywords=the+mckinsey+way&qid=1559249294&s=gateway&sprefix=the+mckinse%2Caps%2C310&sr=8-3",
+  },
+  {
+    image: TA,
+    type: "other reading",
+    link: "https://www.amazon.com/Trusted-Advisor-David-H-Maister/dp/0743212347/ref=sr_1_1?crid=PC9PK4WXWUXB&keywords=trusted+advisor&qid=1553729869&s=books&sprefix=trusted%2Cstripbooks%2C128&sr=1-1",
+  },
+  {
+    image: MCKPOD,
+    type: "podcast",
+    link: "https://player.fm/series/the-mckinsey-podcast-89127",
+  },
+  {
+    image: ART,
+    type: "podcast",
+    link: "https://player.fm/series/art-of-consulting-podcast",
+  },
+  {
+    image: STRAT,
+    type: "podcast",
+    link: "https://podcasts.apple.com/us/podcast/strategy-skills-podcast-management-consulting-strategy/id1021817294",
+  },
+  {
+    image: GS,
+    type: "podcast",
+    link: "https://www.goldmansachs.com/insights/series/exchanges-at-goldman-sachs/index.html",
+  },
+  {
+    image: FREAK,
+    type: "podcast",
+    link: "http://freakonomics.com/",
+  },
+  {
+    image: HBR,
+    type: "podcast",
+    link: "https://hbr.org/podcasts",
+  },
+  {
+    image: DEL,
+    type: "podcast",
+    link: "https://www2.deloitte.com/insights/us/en/multimedia/podcasts.html?icid=left_podcasts",
+  },
+  {
+    name: "McKinsey Practice Case 1",
+    type: "practice case",
+    link: "https://www.mckinsey.com/careers/interviewing/diconsa",
+  },
+  {
+    name: "McKinsey Practice Case 2",
+    type: "practice case",
+    link: "https://www.mckinsey.com/careers/interviewing/electrolight",
+  },
+  {
+    name: "McKinsey Practice Case 3",
+    type: "practice case",
+    link: "https://www.mckinsey.com/careers/interviewing/globapharm",
+  },
+  {
+    name: "McKinsey Practice Case 4",
+    type: "practice case",
+    link: "https://www.mckinsey.com/careers/interviewing/national-education",
+  },
+  {
+    name: "BCG Interactive Case Library",
+    type: "practice case",
+    link: "https://www.bcg.com/Interactives/ICL/",
+  },
+  {
+    name: "BCG Guided Case 1",
+    type: "practice case",
+    link: "https://www.bcg.com/careers/roles/consulting/driving-revenue-growth.aspx",
+  },
+  {
+    name: "BCG Guided Case 2",
+    type: "practice case",
+    link: "https://www.bcg.com/careers/roles/consulting/crafting-distribution-growth.aspx",
+  },
+  {
+    name: "Oliver Wyman Case Challenge 1",
+    type: "practice case",
+    link: "https://www.oliverwyman.com/careers/apply/case-studies/wumbleworld.html",
+  },
+  {
+    name: "Oliver Wyman Case Challenge 2",
+    type: "practice case",
+    link: "https://www.oliverwyman.com/careers/apply/case-studies/aqualine.html",
+  },
+  {
+    name: "Deloitte Case Interview Prep Tool",
+    type: "practice case",
+    link: "http://caseinterviewprep.deloitte.com/",
+  },
+  {
+    name: "Career Services",
+    type: "upenn resource",
+    link: "https://www.vpul.upenn.edu/careerservices/careerfields/phdpostdocconsulting.php",
+  },
+  {
+    name: "Penn Biotech Group Healthcare Consulting",
+    type: "upenn resource",
+    link: "https://pbgconsulting.org/PBGsite/",
+  },
+  {
+    name: "My Consulting Coach",
+    type: "consulting resources",
+    link: "https://www.myconsultingcoach.com/",
+    logo: MCC,
+  },
+  {
+    name: "My Consulting Offer",
+    type: "consulting resources",
+    link: "https://www.myconsultingoffer.org/",
+    logo: MCO,
+  },
+  {
+    name: "Think Cell",
+    type: "consulting resources",
+    link: "https://www.think-cell.com/en",
+    logo: THINKCELL,
+  },
+  {
+    name: "Accenture Case Interview Workbook - Consulting 2018",
+    type: "other resource",
+    link: "https://www.accenture.com/t20180913T100614Z__w__/us-en/_acnmedia/Careers/PDF-14/Accenture-FY19-Case-Workbook-One-Accenture-Consulting.pdf",
+  },
+  {
+    name: "Accenture Case Interview Workbook - Technology Consulting 2018",
+    type: "other resource",
+    link: "https://www.accenture.com/t20180913T100614Z__w__/us-en/_acnmedia/Careers/PDF-14/Accenture-FY19-Case-Workbook-One-Accenture-Technology.pdf",
+  },
+  {
+    name: "Case Interview Preparation Tips (PassTheCase.com)",
+    type: "other resource",
+    link: "https://www.passthecase.com/case-interview/case-interview-prep",
+  },
+  {
+    name: "Case Interview Examples (PassTheCase.com)",
+    type: "other resource",
+    link: "https://www.passthecase.com/case-interview/case-interview-examples",
+  },
+  {
+    name: "Consulting Resume Guide (PassTheCase.com)",
+    type: "other resource",
+    link: "https://www.passthecase.com/consulting-resume",
+  },
+  {
+    name: "Mr. Soosung Lee, Roland Berger",
+    type: "video",
+    link: "https://www.youtube.com/embed/gbI_1Y0LEQU",
+  },
+];
 
 // Calendar Page
 
@@ -425,3 +711,6 @@ export const FooterContent = [
     ],
   },
 ];
+
+export const MAILCHIMPURL =
+  "https://penngraduateconsultinggroup.us7.list-manage.com/subscribe/post?u=42a16ebbf91719c54d9692097&amp;id=80f39fd46d&amp;f_id=002face4f0";

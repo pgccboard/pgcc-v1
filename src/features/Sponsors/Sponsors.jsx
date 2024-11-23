@@ -41,11 +41,11 @@ function Sponsors() {
             </button>
           </Link>
           {/* <Link to={`/contact-us`}> */}
-          <button className="border border-slate-blue text-block py-2 px-4 rounded-lg shadow hover:bg-cello hover:text-white">
+          {/* <button className="border border-slate-blue text-block py-2 px-4 rounded-lg shadow hover:bg-cello hover:text-white">
             <a href={BENEFITSPDF} rel="noreferrer" target="_blank">
               View benefits
             </a>
-          </button>
+          </button> */}
           {/* </Link> */}
         </div>
         <div className="w-full lg:w-auto">

@@ -55,7 +55,6 @@ const MissionCarousel = () => {
 
   return (
     <>
-      <h2 className="text-4xl font-bold text-center">Our Mission</h2>
       <div className="relative w-full max-w-5xl my-4 mx-auto p-4">
         <div className="relative">
           <div
@@ -65,7 +64,7 @@ const MissionCarousel = () => {
               transform: `none`,
             }}
           >
-            <div className="bg-gradient-to-br from-cello to-transparent h-96 max-w-5xl">
+            {/* <div className="bg-gradient-to-br from-cello to-transparent h-96 max-w-5xl">
               <div className="p-4 text-white max-w-2xl">
                 {missionContentParaList.map(
                   (missionContentPara, missionContentIndex) => {
@@ -80,7 +79,7 @@ const MissionCarousel = () => {
                   }
                 )}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute inset-0 flex items-center px-4 justify-between">

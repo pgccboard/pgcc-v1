@@ -16,8 +16,7 @@ function SPONSORFAQ() {
         When and where is the PGCC Case Competition?
       </p>
       <p className="text-xl font-light border-l-2 border-gray-300 my-1 ml-2 pl-2">
-        The 2021 PGCC Case Competition will take place on November 13, 2021
-        virually.
+        More information about the event will be shared soon.
       </p>
       <p className="text-xl font-bold">What is my role as a sponsor? </p>
       <p className="text-xl font-light border-l-2 border-gray-300 my-1 ml-2 pl-2">
