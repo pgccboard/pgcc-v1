@@ -62,10 +62,10 @@ function Resources() {
             {consultingResources.map((x) => (
               <div
                 key={x.name}
-                className="px-5 py-2 w-1/2 md:w-1/3 xl:w-1/3 mb-4 border-2"
+                className="px-5 py-2 w-1/2 md:w-1/3 xl:w-1/3 mb-4 border-2 flex justify-center items-center"
               >
                 <a href={x.link} target="_blank" rel="noreferrer">
-                  <img src={x.logo} alt="logo" />
+                  <img src={x.logo} alt="logo" className="mx-auto" />
                 </a>
               </div>
             ))}
